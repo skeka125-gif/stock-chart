@@ -92,6 +92,13 @@ const STOCKS = [
 const FX = 1400;
 const MAX_WEEK = 18;
 const WEEKS = Array.from({length: MAX_WEEK}, (_, i) => i + 1);
+const WEEK_DATES = {
+  1:"12/06", 2:"12/14", 3:"12/20", 4:"12/28",
+  5:"1/04",  6:"1/11",  7:"1/17",  8:"1/25",
+  9:"2/01",  10:"2/08", 11:"2/15", 12:"2/21",
+  13:"3/01", 14:"3/08", 15:"3/16", 16:"3/22",
+  17:"3/29", 18:"4/05"
+};
 
 const MODE_INFO = {
   cumReturn:  { label: "누적 등락률",   desc: "첫 매수가 기준 종목 자체 등락률 (%)" },
@@ -247,13 +254,12 @@ export default function StockChart() {
             />
           )}
 
-          {/* x축 주차 */}
+          {/* x축 날짜 */}
           {WEEKS.map(w => (
-            <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="10" fontFamily="monospace">
-              {w}
+            <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
+              {WEEK_DATES[w]}
             </text>
           ))}
-          <text x={pL + plotW / 2} y={cH - 1} textAnchor="middle" fill="#7a8a9a" fontSize="10">주차</text>
 
           {/* 라인 */}
           {chartData.map(stock => {
