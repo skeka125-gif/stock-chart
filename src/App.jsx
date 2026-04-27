@@ -9,7 +9,8 @@ const STOCKS = [
       {w:7,eval:301.01,avg:186.09,cur:186.03},{w:8,eval:324.15,avg:185.73,cur:187.48},{w:9,eval:350.21,avg:185.98,cur:190.93},
       {w:10,eval:360.00,avg:185.79,cur:185.22},{w:11,eval:373.96,avg:186.12,cur:182.64},{w:12,eval:408.83,avg:186.05,cur:189.82},
       {w:13,eval:399.92,avg:186.38,cur:177.19},{w:14,eval:421.01,avg:186.11,cur:177.82},{w:15,eval:446.66,avg:185.89,cur:180.25},
-      {w:16,eval:446.40,avg:185.77,cur:172.58},{w:17,eval:452.18,avg:185.45,cur:167.52},{w:18,eval:499.49,avg:184.88,cur:177.39},{w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68}
+      {w:16,eval:446.40,avg:185.77,cur:172.58},{w:17,eval:452.18,avg:185.45,cur:167.52},{w:18,eval:499.49,avg:184.88,cur:177.39},
+      {w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68},{w:21,eval:652.05,avg:185.42,cur:208.27}
     ]
   },
   {
@@ -20,7 +21,8 @@ const STOCKS = [
       {w:7,eval:202.61,avg:217.17,cur:231.60},{w:8,eval:249.10,avg:218.70,cur:259.43},{w:9,eval:245.62,avg:221.45,cur:236.50},
       {w:10,eval:234.59,avg:221.88,cur:208.23},{w:11,eval:252.58,avg:221.44,cur:207.12},{w:12,eval:263.92,avg:219.70,cur:200.15},
       {w:13,eval:283.59,avg:218.62,cur:200.21},{w:14,eval:292.42,avg:216.93,cur:192.43},{w:15,eval:313.26,avg:215.84,cur:193.39},
-      {w:16,eval:343.15,avg:214.72,cur:199.35},{w:17,eval:366.75,avg:214.57,cur:201.99},{w:18,eval:415.92,avg:214.18,cur:217.50},{w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39}
+      {w:16,eval:343.15,avg:214.72,cur:199.35},{w:17,eval:366.75,avg:214.57,cur:201.99},{w:18,eval:415.92,avg:214.18,cur:217.50},
+      {w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39},{w:21,eval:748.05,avg:218.30,cur:347.81}
     ]
   },
   {
@@ -31,7 +33,8 @@ const STOCKS = [
       {w:8,eval:145.05,avg:316.16,cur:327.59},{w:9,eval:169.81,avg:318.17,cur:337.68},{w:10,eval:181.21,avg:320.35,cur:322.52},
       {w:11,eval:190.70,avg:320.38,cur:305.44},{w:12,eval:217.35,avg:318.50,cur:314.98},{w:13,eval:234.97,avg:318.11,cur:311.76},
       {w:14,eval:244.62,avg:316.97,cur:298.52},{w:15,eval:267.72,avg:315.82,cur:302.28},{w:16,eval:283.96,avg:315.27,cur:298.73},
-      {w:17,eval:279.17,avg:314.14,cur:274.34},{w:18,eval:321.77,avg:312.20,cur:295.77},{w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68}
+      {w:17,eval:279.17,avg:314.14,cur:274.34},{w:18,eval:321.77,avg:312.20,cur:295.77},
+      {w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68},{w:21,eval:438.70,avg:313.70,cur:344.40}
     ]
   },
   {
@@ -42,7 +45,8 @@ const STOCKS = [
       {w:7,eval:327.15,avg:675.74,cur:690.97},{w:8,eval:346.21,avg:676.07,cur:688.54},{w:9,eval:367.48,avg:677.10,cur:691.28},
       {w:10,eval:386.72,avg:677.84,cur:689.93},{w:11,eval:401.39,avg:678.42,cur:680.99},{w:12,eval:426.09,avg:678.79,cur:689.43},
       {w:13,eval:443.85,avg:679.26,cur:685.99},{w:14,eval:454.76,avg:679.35,cur:672.38},{w:15,eval:467.67,avg:678.98,cur:662.29},
-      {w:16,eval:475.73,avg:678.60,cur:646.40},{w:17,eval:485.91,avg:677.81,cur:634.09},{w:18,eval:522.87,avg:676.55,cur:655.83},{w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14}
+      {w:16,eval:475.73,avg:678.60,cur:646.40},{w:17,eval:485.91,avg:677.81,cur:634.09},{w:18,eval:522.87,avg:676.55,cur:655.83},
+      {w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14},{w:21,eval:631.53,avg:677.53,cur:713.94}
     ]
   },
   {
@@ -53,7 +57,8 @@ const STOCKS = [
       {w:8,eval:130.79,avg:618.26,cur:622.06},{w:9,eval:150.32,avg:619.92,cur:621.25},{w:10,eval:167.08,avg:619.62,cur:609.05},
       {w:11,eval:184.58,avg:618.72,cur:601.24},{w:12,eval:206.93,avg:617.22,cur:608.81},{w:13,eval:226.33,avg:616.50,cur:607.29},
       {w:14,eval:243.36,avg:615.47,cur:599.75},{w:15,eval:260.63,avg:614.41,cur:593.72},{w:16,eval:273.28,avg:613.53,cur:578.75},
-      {w:17,eval:284.67,avg:611.99,cur:562.58},{w:18,eval:316.41,avg:609.47,cur:584.98},{w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85}
+      {w:17,eval:284.67,avg:611.99,cur:562.58},{w:18,eval:316.41,avg:609.47,cur:584.98},
+      {w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85},{w:21,eval:423.19,avg:611.17,cur:663.88}
     ]
   },
   {
@@ -64,7 +69,8 @@ const STOCKS = [
       {w:8,eval:141.80,avg:315.67,cur:344.35},{w:9,eval:162.05,avg:320.23,cur:345.96},{w:10,eval:183.19,avg:323.09,cur:348.16},
       {w:11,eval:206.35,avg:326.21,cur:354.30},{w:12,eval:229.44,avg:328.65,cur:359.43},{w:13,eval:244.24,avg:331.41,cur:352.29},
       {w:14,eval:243.17,avg:332.26,cur:323.51},{w:15,eval:269.10,avg:332.09,cur:331.32},{w:16,eval:287.32,avg:332.67,cur:330.00},
-      {w:17,eval:300.55,avg:333.30,cur:323.48},{w:18,eval:336.22,avg:332.98,cur:339.61},{w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71}
+      {w:17,eval:300.55,avg:333.30,cur:323.48},{w:18,eval:336.22,avg:332.98,cur:339.61},
+      {w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71},{w:21,eval:528.35,avg:340.38,cur:461.60}
     ]
   },
   {
@@ -73,7 +79,8 @@ const STOCKS = [
       {w:7,eval:20.72,avg:31.46,cur:32.61},{w:8,eval:37.65,avg:30.09,cur:28.34},{w:9,eval:50.54,avg:29.37,cur:24.74},
       {w:10,eval:49.76,avg:26.56,cur:16.53},{w:11,eval:67.85,avg:23.33,cur:15.83},{w:12,eval:86.15,avg:21.37,cur:15.36},
       {w:13,eval:99.46,avg:20.03,cur:14.25},{w:14,eval:124.85,avg:19.36,cur:15.13},{w:15,eval:156.84,avg:18.90,cur:16.49},
-      {w:16,eval:158.83,avg:18.74,cur:14.90},{w:17,eval:165.96,avg:18.51,cur:13.98},{w:18,eval:190.25,avg:18.13,cur:14.39},{w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09}
+      {w:16,eval:158.83,avg:18.74,cur:14.90},{w:17,eval:165.96,avg:18.51,cur:13.98},{w:18,eval:190.25,avg:18.13,cur:14.39},
+      {w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09},{w:21,eval:318.84,avg:17.90,cur:19.05}
     ]
   },
   {
@@ -84,31 +91,51 @@ const STOCKS = [
       {w:7,eval:767357,avg:28178,cur:30694},{w:8,eval:887607,avg:28434,cur:32874},{w:9,eval:1027742,avg:28832,cur:35439},
       {w:10,eval:1008412,avg:29159,cur:32529},{w:11,eval:1069842,avg:29417,cur:32419},{w:12,eval:1150257,avg:29589,cur:32865},
       {w:13,eval:1240592,avg:29802,cur:33530},{w:14,eval:1319352,avg:30049,cur:33830},{w:15,eval:1391932,avg:30235,cur:33950},
-      {w:16,eval:1298152,avg:30376,cur:30185},{w:17,eval:1364607,avg:30369,cur:30325},{w:18,eval:1490587,avg:30401,cur:31715},{w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850}
+      {w:16,eval:1298152,avg:30376,cur:30185},{w:17,eval:1364607,avg:30369,cur:30325},{w:18,eval:1490587,avg:30401,cur:31715},
+      {w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850},{w:21,eval:1646692,avg:30539,cur:31070}
     ]
   }
 ];
 
-const MAX_WEEK = 20;
+const MAX_WEEK = 21;
+const WEEKS = Array.from({length: MAX_WEEK}, (_, i) => i + 1);
+
 const WEEK_FX = {
   1:1400, 2:1400, 3:1400, 4:1400, 5:1400, 6:1400, 7:1400, 8:1400, 9:1400,
   10:1400, 11:1400, 12:1400, 13:1400, 14:1400, 15:1400, 16:1400, 17:1400, 18:1400,
-  19:1450, 20:1476
+  19:1450, 20:1476, 21:1484
 };
-const WEEKS = Array.from({length: MAX_WEEK}, (_, i) => i + 1);
+
 const WEEK_DATES = {
   1:"12/06", 2:"12/14", 3:"12/20", 4:"12/28",
   5:"1/04",  6:"1/11",  7:"1/17",  8:"1/25",
   9:"2/01",  10:"2/08", 11:"2/15", 12:"2/21",
   13:"3/01", 14:"3/08", 15:"3/16", 16:"3/22",
-  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18"
+  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18", 21:"4/26"
 };
 
+// 주차별 포트폴리오 총 평가금액 (원화)
+const PORTFOLIO_KRW = [
+  0, 994249, 1177637, 1422551, 1693990, 1911206,
+  2145004, 2485734, 2921820, 3249563, 3313617,
+  3523785, 3835877, 4060950, 4266144, 4556522,
+  4581646, 4743190, 5235202, 5967135, 6694364, 7308111
+];
+
+// 주차별 투입 원가 누적 (평단가 × 보유수량, 원화 환산)
+const SAVINGS_KRW = [
+  0, 987103, 1185693, 1410162, 1631862, 1862824,
+  2099917, 2365269, 2703895, 2968464, 3233415,
+  3486460, 3747318, 4010296, 4275509, 4539248,
+  4801787, 5058240, 5371197, 5718468, 6062436, 6357127
+];
+
 const MODE_INFO = {
-  cumReturn:  { label: "누적 등락률",   desc: "첫 매수가 기준 종목 자체 등락률 (%)" },
-  evalUSD:    { label: "평가금액 ($)",   desc: "보유 평가금액 (국내주식 ₩1,400/$ 환산)" },
-  gapRate:    { label: "괴리율",         desc: "현재가 vs 평단가 차이 (%) — 마이너스 구간이 추매 기회였던 시점" },
-  normalized: { label: "정규화 (첫주=100)", desc: "각 종목 첫 등장 주차 평단가를 100으로 놓은 상대 변화 — 종목 간 평단가 추이 비교" },
+  cumReturn:  { label: "누적 등락률",      desc: "첫 매수가 기준 종목 자체 등락률 (%)" },
+  evalUSD:    { label: "평가금액 ($)",      desc: "보유 평가금액 (국내주식 주차별 환율 환산)" },
+  gapRate:    { label: "괴리율",            desc: "현재가 vs 평단가 차이 (%) — 마이너스 구간이 추매 기회였던 시점" },
+  normalized: { label: "정규화 (첫주=100)", desc: "각 종목 첫 등장 주차 평단가를 100으로 놓은 상대 변화" },
+  savings:    { label: "원가 비교",         desc: "전체 포트폴리오 평가금액 vs 투입 원가 (평단가 × 보유수량) 비교 (원화)" },
 };
 
 export default function StockChart() {
@@ -117,18 +144,15 @@ export default function StockChart() {
   const toggle = t => setEnabled(p => ({...p, [t]: !p[t]}));
 
   const chartData = useMemo(() => {
+    if (mode === "savings") return [];
     return STOCKS.filter(s => enabled[s.ticker]).map(stock => {
-      const firstAvg = stock.data[0].avg; // 정규화용 첫 주차 평단가
+      const firstAvg = stock.data[0].avg;
       const points = stock.data.map(d => {
         let val;
-        if (mode === "evalUSD")
-          val = stock.isKR ? d.eval / (WEEK_FX[d.w] || 1400) : d.eval;
-        else if (mode === "cumReturn")
-          val = ((d.cur - stock.firstPrice) / stock.firstPrice) * 100;
-        else if (mode === "gapRate")
-          val = ((d.cur - d.avg) / d.avg) * 100;
-        else if (mode === "normalized")
-          val = (d.avg / firstAvg) * 100;
+        if (mode === "evalUSD")       val = stock.isKR ? d.eval / (WEEK_FX[d.w] || 1400) : d.eval;
+        else if (mode === "cumReturn") val = ((d.cur - stock.firstPrice) / stock.firstPrice) * 100;
+        else if (mode === "gapRate")   val = ((d.cur - d.avg) / d.avg) * 100;
+        else if (mode === "normalized") val = (d.avg / firstAvg) * 100;
         return { week: d.w, value: val };
       });
       return { ...stock, points };
@@ -147,6 +171,7 @@ export default function StockChart() {
   const yS = v => pT + plotH - ((v - yMin) / (yMax - yMin)) * plotH;
 
   const gridLines = useMemo(() => {
+    if (mode === "savings") return [];
     const range = yMax - yMin;
     let step;
     if (mode === "cumReturn" || mode === "gapRate") step = range > 80 ? 10 : range > 40 ? 5 : 2;
@@ -168,132 +193,212 @@ export default function StockChart() {
     return `${v >= 0 ? '+' : ''}${v.toFixed(0)}%`;
   };
 
-  // 0선 표시 여부 (괴리율, 누적등락률)
   const showZeroLine = mode === "cumReturn" || mode === "gapRate";
 
   const endLabels = useMemo(() => {
+    if (mode === "savings") return [];
     const labels = chartData.map(s => {
       const last = s.points[s.points.length - 1];
-      return {
-        ticker: s.ticker, name: s.name, color: s.color,
-        x: xS(last.week), rawY: yS(last.value), y: yS(last.value), value: last.value
-      };
+      return { ticker: s.ticker, name: s.name, color: s.color,
+        x: xS(last.week), rawY: yS(last.value), y: yS(last.value), value: last.value };
     }).sort((a, b) => a.rawY - b.rawY);
     for (let i = 1; i < labels.length; i++) {
       if (labels[i].y - labels[i - 1].y < 16) labels[i].y = labels[i - 1].y + 16;
     }
     return labels;
-  }, [chartData]);
+  }, [chartData, mode]);
+
+  // 적립 비교 차트 계산
+  const savingsChart = useMemo(() => {
+    if (mode !== "savings") return null;
+    const weeks = WEEKS.filter(w => PORTFOLIO_KRW[w] > 0);
+    const portPoints = weeks.map(w => ({ week: w, value: PORTFOLIO_KRW[w] / 10000 }));
+    const savePoints = weeks.map(w => ({ week: w, value: SAVINGS_KRW[w] / 10000 }));
+    const allVals = [...portPoints, ...savePoints].map(p => p.value);
+    const mn = Math.min(...allVals), mx = Math.max(...allVals);
+    const pd2 = (mx - mn) * 0.1;
+    const yMn = mn - pd2, yMx = mx + pd2;
+    const yS2 = v => pT + plotH - ((v - yMn) / (yMx - yMn)) * plotH;
+    const range = yMx - yMn;
+    const step = range > 500 ? 100 : range > 200 ? 50 : 25;
+    const grids = [];
+    for (let v = Math.ceil(yMn / step) * step; v <= yMx; v += step) grids.push(v);
+    const portLast = portPoints[portPoints.length - 1];
+    const saveLast = savePoints[savePoints.length - 1];
+    const diff = portLast.value - saveLast.value;
+    const diffPct = (diff / saveLast.value * 100);
+    return { portPoints, savePoints, yS2, grids, diff, diffPct };
+  }, [mode]);
+
+  const fmtKRW = v => {
+    if (v >= 10000) return `${(v / 10000).toFixed(2)}억원`;
+    return `${Math.round(v).toLocaleString()}만원`;
+  };
 
   return (
-    <div style={{
-      background: "#0a0a14", color: "#e0e0e0", minHeight: "100vh",
-      fontFamily: "'Pretendard','Noto Sans KR',sans-serif", padding: "20px 16px"
-    }}>
+    <div style={{ background: "#0a0a14", color: "#e0e0e0", minHeight: "100vh",
+      fontFamily: "'Pretendard','Noto Sans KR',sans-serif", padding: "20px 16px" }}>
       <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" rel="stylesheet"/>
 
-      <h1 style={{
-        fontSize: "26px", fontWeight: 800, textAlign: "center",
+      <h1 style={{ fontSize: "26px", fontWeight: 800, textAlign: "center",
         background: "linear-gradient(135deg,#3B82F6,#00D4AA)",
         WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-        marginBottom: "4px", letterSpacing: "-0.5px"
-      }}>주식 모으기 추적 차트</h1>
-      <p style={{textAlign: "center", color: "#c0c8d8", fontSize: "13px", marginBottom: "16px"}}>
+        marginBottom: "4px", letterSpacing: "-0.5px" }}>주식 모으기 추적 차트</h1>
+      <p style={{ textAlign: "center", color: "#c0c8d8", fontSize: "13px", marginBottom: "16px" }}>
         1주차 ~ {MAX_WEEK}주차 · 국내주식 주차별 환율 적용
       </p>
 
       {/* 모드 버튼 */}
-      <div style={{display: "flex", justifyContent: "center", gap: "6px", marginBottom: "8px", flexWrap: "wrap"}}>
+      <div style={{ display: "flex", justifyContent: "center", gap: "6px", marginBottom: "8px", flexWrap: "wrap" }}>
         {Object.entries(MODE_INFO).map(([m, info]) => (
           <button key={m} onClick={() => setMode(m)} style={{
             padding: "7px 16px", borderRadius: "20px", border: "none", cursor: "pointer",
             fontSize: "13px", fontWeight: 700, transition: "all 0.2s",
-            background: mode === m ? "#3B82F6" : "#16162a",
+            background: mode === m ? (m === "savings" ? "#10B981" : "#3B82F6") : "#16162a",
             color: mode === m ? "#fff" : "#6b7280",
-            boxShadow: mode === m ? "0 0 16px rgba(59,130,246,0.3)" : "none"
+            boxShadow: mode === m ? `0 0 16px ${m === "savings" ? "rgba(16,185,129,0.3)" : "rgba(59,130,246,0.3)"}` : "none"
           }}>{info.label}</button>
         ))}
       </div>
 
-      {/* 현재 모드 설명 */}
-      <p style={{textAlign: "center", color: "#b0bccf", fontSize: "12px", marginBottom: "14px", minHeight: "16px"}}>
+      {/* 모드 설명 */}
+      <p style={{ textAlign: "center", color: "#b0bccf", fontSize: "12px", marginBottom: "14px", minHeight: "16px" }}>
         {MODE_INFO[mode].desc}
       </p>
 
-      {/* 종목 토글 */}
-      <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "5px", marginBottom: "18px"}}>
-        {STOCKS.map(s => (
-          <button key={s.ticker} onClick={() => toggle(s.ticker)} style={{
-            padding: "4px 12px", borderRadius: "14px",
-            border: `1.5px solid ${enabled[s.ticker] ? s.color : '#333'}`,
-            cursor: "pointer", fontSize: "12px", fontWeight: 700, transition: "all 0.15s",
-            background: enabled[s.ticker] ? s.color + "18" : "transparent",
-            color: enabled[s.ticker] ? s.color : "#444"
-          }}>{s.name}</button>
-        ))}
-      </div>
-
-      {/* 차트 */}
-      <div style={{display: "flex", justifyContent: "center", overflowX: "auto"}}>
-        <svg width={cW} height={cH} style={{background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e"}}>
-          {/* 그리드 */}
-          {gridLines.map(v => (
-            <g key={v}>
-              <line
-                x1={pL} y1={yS(v)} x2={cW - pR} y2={yS(v)}
-                stroke={showZeroLine && v === 0 ? "#3a3a5a" : "#151525"}
-                strokeWidth={showZeroLine && v === 0 ? 1.5 : 0.5}
-              />
-              <text x={pL - 8} y={yS(v) + 4} textAnchor="end" fill="#9aaabb" fontSize="10" fontFamily="monospace">
-                {fmtGrid(v)}
-              </text>
-            </g>
+      {/* 종목 토글 (savings 모드 제외) */}
+      {mode !== "savings" && (
+        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "5px", marginBottom: "18px" }}>
+          {STOCKS.map(s => (
+            <button key={s.ticker} onClick={() => toggle(s.ticker)} style={{
+              padding: "4px 12px", borderRadius: "14px",
+              border: `1.5px solid ${enabled[s.ticker] ? s.color : '#333'}`,
+              cursor: "pointer", fontSize: "12px", fontWeight: 700, transition: "all 0.15s",
+              background: enabled[s.ticker] ? s.color + "18" : "transparent",
+              color: enabled[s.ticker] ? s.color : "#444"
+            }}>{s.name}</button>
           ))}
+        </div>
+      )}
 
-          {/* 괴리율 0선 강조 영역 */}
-          {mode === "gapRate" && yMin < 0 && yMax > 0 && (
-            <rect
-              x={pL} y={yS(0)} width={plotW} height={yS(yMin) - yS(0)}
-              fill="#1a0a0a" opacity="0.4"
-            />
-          )}
+      {/* 적립 비교 차트 */}
+      {mode === "savings" && savingsChart && (
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "12px" }}>
+          {/* 요약 카드 */}
+          <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", justifyContent: "center", marginBottom: "4px" }}>
+            <div style={{ background: "#0e0e1c", border: "1px solid #1a1a2e", borderRadius: "10px", padding: "12px 24px", textAlign: "center" }}>
+              <div style={{ color: "#9aaabb", fontSize: "12px", marginBottom: "4px" }}>포트폴리오 평가금액</div>
+              <div style={{ color: "#3B82F6", fontSize: "20px", fontWeight: 800 }}>
+                {fmtKRW(savingsChart.portPoints[savingsChart.portPoints.length - 1].value)}
+              </div>
+            </div>
+            <div style={{ background: "#0e0e1c", border: "1px solid #1a1a2e", borderRadius: "10px", padding: "12px 24px", textAlign: "center" }}>
+              <div style={{ color: "#9aaabb", fontSize: "12px", marginBottom: "4px" }}>투입 원가</div>
+              <div style={{ color: "#9CA3AF", fontSize: "20px", fontWeight: 800 }}>
+                {fmtKRW(savingsChart.savePoints[savingsChart.savePoints.length - 1].value)}
+              </div>
+            </div>
+            <div style={{ background: "#0e0e1c", border: "1px solid #1a1a2e", borderRadius: "10px", padding: "12px 24px", textAlign: "center" }}>
+              <div style={{ color: "#9aaabb", fontSize: "12px", marginBottom: "4px" }}>원가 대비 손익</div>
+              <div style={{ color: savingsChart.diff >= 0 ? "#48C882" : "#DC5050", fontSize: "20px", fontWeight: 800 }}>
+                {savingsChart.diff >= 0 ? "+" : ""}{fmtKRW(savingsChart.diff)} ({savingsChart.diff >= 0 ? "+" : ""}{savingsChart.diffPct.toFixed(1)}%)
+              </div>
+            </div>
+          </div>
 
-          {/* x축 날짜 */}
-          {WEEKS.map(w => (
-            <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
-              {WEEK_DATES[w]}
-            </text>
-          ))}
-
-          {/* 라인 */}
-          {chartData.map(stock => {
-            const pts = stock.points;
-            if (pts.length < 2) return null;
-            const d = pts.map((p, i) => `${i === 0 ? 'M' : 'L'} ${xS(p.week)} ${yS(p.value)}`).join(' ');
-            return (
-              <path key={stock.ticker} d={d} fill="none" stroke={stock.color}
-                strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" opacity="0.9"/>
-            );
-          })}
-
-          {/* 끝 라벨 */}
-          {endLabels.map(l => (
-            <g key={l.ticker}>
-              {Math.abs(l.y - l.rawY) > 4 && (
-                <line x1={l.x + 2} y1={l.rawY} x2={l.x + 10} y2={l.y}
-                  stroke={l.color} strokeWidth="0.5" opacity="0.5"/>
+          <div style={{ overflowX: "auto" }}>
+            <svg width={cW} height={cH} style={{ background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e" }}>
+              {/* 그리드 */}
+              {savingsChart.grids.map(v => (
+                <g key={v}>
+                  <line x1={pL} y1={savingsChart.yS2(v)} x2={cW - pR} y2={savingsChart.yS2(v)} stroke="#151525" strokeWidth="0.5"/>
+                  <text x={pL - 8} y={savingsChart.yS2(v) + 4} textAnchor="end" fill="#9aaabb" fontSize="10" fontFamily="monospace">
+                    {v >= 10000 ? `${(v/10000).toFixed(0)}억` : `${v}만`}
+                  </text>
+                </g>
+              ))}
+              {/* x축 날짜 */}
+              {WEEKS.map(w => (
+                <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
+                  {WEEK_DATES[w]}
+                </text>
+              ))}
+              {/* 포트폴리오 라인 */}
+              {savingsChart.portPoints.length >= 2 && (
+                <path
+                  d={savingsChart.portPoints.map((p, i) => `${i === 0 ? 'M' : 'L'} ${xS(p.week)} ${savingsChart.yS2(p.value)}`).join(' ')}
+                  fill="none" stroke="#3B82F6" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round"
+                />
               )}
-              <text x={l.x + 12} y={l.y + 4} fill={l.color} fontSize="11" fontWeight="700"
-                fontFamily="'Pretendard',sans-serif">
-                {l.name} {fmtVal(l.value)}
-              </text>
-            </g>
-          ))}
-        </svg>
-      </div>
+              {/* 적립 라인 */}
+              {savingsChart.savePoints.length >= 2 && (
+                <path
+                  d={savingsChart.savePoints.map((p, i) => `${i === 0 ? 'M' : 'L'} ${xS(p.week)} ${savingsChart.yS2(p.value)}`).join(' ')}
+                  fill="none" stroke="#6B7280" strokeWidth="2" strokeLinejoin="round" strokeLinecap="round" strokeDasharray="6,3"
+                />
+              )}
+              {/* 끝 라벨 */}
+              {(() => {
+                const pl = savingsChart.portPoints[savingsChart.portPoints.length - 1];
+                const sl = savingsChart.savePoints[savingsChart.savePoints.length - 1];
+                return (
+                  <>
+                    <text x={xS(pl.week) + 12} y={savingsChart.yS2(pl.value) + 4} fill="#3B82F6" fontSize="12" fontWeight="700"
+                      fontFamily="'Pretendard',sans-serif">포트폴리오 {fmtKRW(pl.value)}</text>
+                    <text x={xS(sl.week) + 12} y={savingsChart.yS2(sl.value) + 4} fill="#9CA3AF" fontSize="12" fontWeight="700"
+                      fontFamily="'Pretendard',sans-serif">투입 원가 {fmtKRW(sl.value)}</text>
+                  </>
+                );
+              })()}
+            </svg>
+          </div>
+        </div>
+      )}
 
-      <p style={{textAlign: "center", color: "#8899aa", fontSize: "11px", marginTop: "14px"}}>
-        괴리율 = (현재가 − 평단가) / 평단가 × 100 · 정규화 = 첫 등장 주차 평단가 기준 100 · 평가금액 환산: 주차별 환율 적용
+      {/* 기존 차트 */}
+      {mode !== "savings" && (
+        <div style={{ display: "flex", justifyContent: "center", overflowX: "auto" }}>
+          <svg width={cW} height={cH} style={{ background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e" }}>
+            {gridLines.map(v => (
+              <g key={v}>
+                <line x1={pL} y1={yS(v)} x2={cW - pR} y2={yS(v)}
+                  stroke={showZeroLine && v === 0 ? "#3a3a5a" : "#151525"}
+                  strokeWidth={showZeroLine && v === 0 ? 1.5 : 0.5}/>
+                <text x={pL - 8} y={yS(v) + 4} textAnchor="end" fill="#9aaabb" fontSize="10" fontFamily="monospace">
+                  {fmtGrid(v)}
+                </text>
+              </g>
+            ))}
+            {mode === "gapRate" && yMin < 0 && yMax > 0 && (
+              <rect x={pL} y={yS(0)} width={plotW} height={yS(yMin) - yS(0)} fill="#1a0a0a" opacity="0.4"/>
+            )}
+            {WEEKS.map(w => (
+              <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
+                {WEEK_DATES[w]}
+              </text>
+            ))}
+            {chartData.map(stock => {
+              const pts = stock.points;
+              if (pts.length < 2) return null;
+              const d = pts.map((p, i) => `${i === 0 ? 'M' : 'L'} ${xS(p.week)} ${yS(p.value)}`).join(' ');
+              return <path key={stock.ticker} d={d} fill="none" stroke={stock.color}
+                strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" opacity="0.9"/>;
+            })}
+            {endLabels.map(l => (
+              <g key={l.ticker}>
+                {Math.abs(l.y - l.rawY) > 4 && (
+                  <line x1={l.x + 2} y1={l.rawY} x2={l.x + 10} y2={l.y} stroke={l.color} strokeWidth="0.5" opacity="0.5"/>
+                )}
+                <text x={l.x + 12} y={l.y + 4} fill={l.color} fontSize="11" fontWeight="700"
+                  fontFamily="'Pretendard',sans-serif">{l.name} {fmtVal(l.value)}</text>
+              </g>
+            ))}
+          </svg>
+        </div>
+      )}
+
+      <p style={{ textAlign: "center", color: "#555", fontSize: "11px", marginTop: "14px" }}>
+        괴리율 = (현재가 − 평단가) / 평단가 × 100 · 정규화 = 첫 등장 주차 평단가 기준 100 · 적립 비교: 주차별 환율 적용
       </p>
     </div>
   );
