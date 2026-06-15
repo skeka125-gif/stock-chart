@@ -198,8 +198,6 @@ export default function StockChart() {
   }, [mode]);
 
   const allChartData = [...chartData, ...indexChartData];
-    });
-  }, [mode, enabled]);
 
   const allV = allChartData.flatMap(s => s.points.map(p => p.value));
   const rawMin = allV.length ? Math.min(...allV) : -10;
@@ -236,11 +234,13 @@ export default function StockChart() {
 
   const endLabels = useMemo(() => {
     if (mode === "savings") return [];
-    const labels = allChartData.map(s => {
-      const last = s.points[s.points.length - 1];
-      return { ticker: s.ticker, name: s.name, color: s.color,
-        x: xS(last.week), rawY: yS(last.value), y: yS(last.value), value: last.value };
-    }).sort((a, b) => a.rawY - b.rawY);
+    const labels = allChartData
+      .filter(s => s.points.length > 0)
+      .map(s => {
+        const last = s.points[s.points.length - 1];
+        return { ticker: s.ticker, name: s.name, color: s.color,
+          x: xS(last.week), rawY: yS(last.value), y: yS(last.value), value: last.value };
+      }).sort((a, b) => a.rawY - b.rawY);
     for (let i = 1; i < labels.length; i++) {
       if (labels[i].y - labels[i - 1].y < 16) labels[i].y = labels[i - 1].y + 16;
     }
