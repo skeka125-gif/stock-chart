@@ -10,7 +10,7 @@ const STOCKS = [
       {w:10,eval:360.00,avg:185.79,cur:185.22},{w:11,eval:373.96,avg:186.12,cur:182.64},{w:12,eval:408.83,avg:186.05,cur:189.82},
       {w:13,eval:399.92,avg:186.38,cur:177.19},{w:14,eval:421.01,avg:186.11,cur:177.82},{w:15,eval:446.66,avg:185.89,cur:180.25},
       {w:16,eval:446.40,avg:185.77,cur:172.58},{w:17,eval:452.18,avg:185.45,cur:167.52},{w:18,eval:499.49,avg:184.88,cur:177.39},
-      {w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68},{w:21,eval:652.05,avg:185.42,cur:208.27},{w:22,eval:640.16,avg:186.15,cur:198.45},{w:23,eval:715.62,avg:186.59,cur:215.20},{w:24,eval:769.67,avg:187.49,cur:225.32},{w:25,eval:754.79,avg:188.41,cur:215.33},{w:26,eval:759.85,avg:189.06,cur:211.14},{w:27,eval:756.88,avg:189.79,cur:205.10},{w:28,eval:778.11,avg:190.23,cur:205.19}
+      {w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68},{w:21,eval:652.05,avg:185.42,cur:208.27},{w:22,eval:640.16,avg:186.15,cur:198.45},{w:23,eval:715.62,avg:186.59,cur:215.20},{w:24,eval:769.67,avg:187.49,cur:225.32},{w:25,eval:754.79,avg:188.41,cur:215.33},{w:26,eval:759.85,avg:189.06,cur:211.14},{w:27,eval:756.88,avg:189.79,cur:205.10},{w:28,eval:778.11,avg:190.23,cur:205.19},{w:29,eval:813.06,avg:190.55,cur:210.69}
     ]
   },
   {
@@ -22,7 +22,7 @@ const STOCKS = [
       {w:10,eval:234.59,avg:221.88,cur:208.23},{w:11,eval:252.58,avg:221.44,cur:207.12},{w:12,eval:263.92,avg:219.70,cur:200.15},
       {w:13,eval:283.59,avg:218.62,cur:200.21},{w:14,eval:292.42,avg:216.93,cur:192.43},{w:15,eval:313.26,avg:215.84,cur:193.39},
       {w:16,eval:343.15,avg:214.72,cur:199.35},{w:17,eval:366.75,avg:214.57,cur:201.99},{w:18,eval:415.92,avg:214.18,cur:217.50},
-      {w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39},{w:21,eval:748.05,avg:218.30,cur:347.81},{w:22,eval:797.51,avg:221.29,cur:360.54},{w:23,eval:1031.07,avg:224.91,cur:455.19},{w:24,eval:979.54,avg:229.23,cur:424.10},{w:25,eval:1101.42,avg:233.21,cur:467.51},{w:26,eval:1236.77,avg:237.61,cur:516.10},{w:27,eval:1135.59,avg:242.06,cur:466.38},{w:28,eval:1267.53,avg:246.34,cur:511.57}
+      {w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39},{w:21,eval:748.05,avg:218.30,cur:347.81},{w:22,eval:797.51,avg:221.29,cur:360.54},{w:23,eval:1031.07,avg:224.91,cur:455.19},{w:24,eval:979.54,avg:229.23,cur:424.10},{w:25,eval:1101.42,avg:233.21,cur:467.51},{w:26,eval:1236.77,avg:237.61,cur:516.10},{w:27,eval:1135.59,avg:242.06,cur:466.38},{w:28,eval:1267.53,avg:246.34,cur:511.57},{w:29,eval:1345.58,avg:249.34,cur:537.37}
     ]
   },
   {
@@ -34,7 +34,7 @@ const STOCKS = [
       {w:11,eval:190.70,avg:320.38,cur:305.44},{w:12,eval:217.35,avg:318.50,cur:314.98},{w:13,eval:234.97,avg:318.11,cur:311.76},
       {w:14,eval:244.62,avg:316.97,cur:298.52},{w:15,eval:267.72,avg:315.82,cur:302.28},{w:16,eval:283.96,avg:315.27,cur:298.73},
       {w:17,eval:279.17,avg:314.14,cur:274.34},{w:18,eval:321.77,avg:312.20,cur:295.77},
-      {w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68},{w:21,eval:438.70,avg:313.70,cur:344.40},{w:22,eval:513.45,avg:315.16,cur:385.69},{w:23,eval:554.20,avg:317.88,cur:400.80},{w:24,eval:568.80,avg:320.56,cur:396.78},{w:25,eval:568.33,avg:323.12,cur:382.97},{w:26,eval:584.01,avg:325.29,cur:380.34},{w:27,eval:585.82,avg:326.78,cur:368.53},{w:28,eval:592.58,avg:328.03,cur:359.68}
+      {w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68},{w:21,eval:438.70,avg:313.70,cur:344.40},{w:22,eval:513.45,avg:315.16,cur:385.69},{w:23,eval:554.20,avg:317.88,cur:400.80},{w:24,eval:568.80,avg:320.56,cur:396.78},{w:25,eval:568.33,avg:323.12,cur:382.97},{w:26,eval:584.01,avg:325.29,cur:380.34},{w:27,eval:585.82,avg:326.78,cur:368.53},{w:28,eval:592.58,avg:328.03,cur:359.68},{w:29,eval:620.33,avg:328.93,cur:368.03}
     ]
   },
   {
@@ -46,7 +46,7 @@ const STOCKS = [
       {w:10,eval:386.72,avg:677.84,cur:689.93},{w:11,eval:401.39,avg:678.42,cur:680.99},{w:12,eval:426.09,avg:678.79,cur:689.43},
       {w:13,eval:443.85,avg:679.26,cur:685.99},{w:14,eval:454.76,avg:679.35,cur:672.38},{w:15,eval:467.67,avg:678.98,cur:662.29},
       {w:16,eval:475.73,avg:678.60,cur:646.40},{w:17,eval:485.91,avg:677.81,cur:634.09},{w:18,eval:522.87,avg:676.55,cur:655.83},
-      {w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14},{w:21,eval:631.53,avg:677.53,cur:713.94},{w:22,eval:657.70,avg:678.58,cur:720.65},{w:23,eval:693.52,avg:679.94,cur:737.62},{w:24,eval:714.99,avg:681.56,cur:739.17},{w:25,eval:741.44,avg:683.09,cur:745.64},{w:26,eval:772.35,avg:684.86,cur:756.48},{w:27,eval:772.50,avg:686.66,cur:737.55},{w:28,eval:797.96,avg:688.04,cur:741.75}
+      {w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14},{w:21,eval:631.53,avg:677.53,cur:713.94},{w:22,eval:657.70,avg:678.58,cur:720.65},{w:23,eval:693.52,avg:679.94,cur:737.62},{w:24,eval:714.99,avg:681.56,cur:739.17},{w:25,eval:741.44,avg:683.09,cur:745.64},{w:26,eval:772.35,avg:684.86,cur:756.48},{w:27,eval:772.50,avg:686.66,cur:737.55},{w:28,eval:797.96,avg:688.04,cur:741.75},{w:29,eval:817.22,avg:689.12,cur:746.74}
     ]
   },
   {
@@ -58,7 +58,7 @@ const STOCKS = [
       {w:11,eval:184.58,avg:618.72,cur:601.24},{w:12,eval:206.93,avg:617.22,cur:608.81},{w:13,eval:226.33,avg:616.50,cur:607.29},
       {w:14,eval:243.36,avg:615.47,cur:599.75},{w:15,eval:260.63,avg:614.41,cur:593.72},{w:16,eval:273.28,avg:613.53,cur:578.75},
       {w:17,eval:284.67,avg:611.99,cur:562.58},{w:18,eval:316.41,avg:609.47,cur:584.98},
-      {w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85},{w:21,eval:423.19,avg:611.17,cur:663.88},{w:22,eval:450.14,avg:613.39,cur:674.15},{w:23,eval:495.73,avg:616.29,cur:711.23},{w:24,eval:514.10,avg:619.89,cur:708.93},{w:25,eval:540.63,avg:623.14,cur:717.54},{w:26,eval:576.52,avg:626.86,cur:738.31},{w:27,eval:569.59,avg:630.64,cur:705.06},{w:28,eval:604.01,avg:633.49,cur:721.34}
+      {w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85},{w:21,eval:423.19,avg:611.17,cur:663.88},{w:22,eval:450.14,avg:613.39,cur:674.15},{w:23,eval:495.73,avg:616.29,cur:711.23},{w:24,eval:514.10,avg:619.89,cur:708.93},{w:25,eval:540.63,avg:623.14,cur:717.54},{w:26,eval:576.52,avg:626.86,cur:738.31},{w:27,eval:569.59,avg:630.64,cur:705.06},{w:28,eval:604.01,avg:633.49,cur:721.34},{w:29,eval:634.22,avg:635.77,cur:740.62}
     ]
   },
   {
@@ -70,13 +70,19 @@ const STOCKS = [
       {w:11,eval:206.35,avg:326.21,cur:354.30},{w:12,eval:229.44,avg:328.65,cur:359.43},{w:13,eval:244.24,avg:331.41,cur:352.29},
       {w:14,eval:243.17,avg:332.26,cur:323.51},{w:15,eval:269.10,avg:332.09,cur:331.32},{w:16,eval:287.32,avg:332.67,cur:330.00},
       {w:17,eval:300.55,avg:333.30,cur:323.48},{w:18,eval:336.22,avg:332.98,cur:339.61},
-      {w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71},{w:21,eval:528.35,avg:340.38,cur:461.60},{w:22,eval:553.84,avg:344.43,cur:465.75},{w:23,eval:640.48,avg:348.95,cur:520.30},{w:24,eval:645.42,avg:354.19,cur:508.52},{w:25,eval:703.13,avg:358.80,cur:537.33},{w:26,eval:764.86,avg:364.20,cur:569.08},{w:27,eval:743.78,avg:369.73,cur:539.77},{w:28,eval:843.32,avg:375.04,cur:596.25}
+      {w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71},{w:21,eval:528.35,avg:340.38,cur:461.60},{w:22,eval:553.84,avg:344.43,cur:465.75},{w:23,eval:640.48,avg:348.95,cur:520.30},{w:24,eval:645.42,avg:354.19,cur:508.52},{w:25,eval:703.13,avg:358.80,cur:537.33},{w:26,eval:764.86,avg:364.20,cur:569.08},{w:27,eval:743.78,avg:369.73,cur:539.77},{w:28,eval:843.32,avg:375.04,cur:596.25},{w:29,eval:919.03,avg:378.81,cur:639.45}
     ]
   },
   {
     name: "DRAM", ticker: "DRAM", color: "#A78BFA", startWeek: 28, firstPrice: 59.73,
     data: [
-      {w:28,eval:22.02,avg:61.92,cur:65.01}
+      {w:28,eval:22.02,avg:61.92,cur:65.01},{w:29,eval:41.32,avg:64.91,cur:76.71}
+    ]
+  },
+  {
+    name: "마이크론", ticker: "MU", color: "#06B6D4", startWeek: 29, firstPrice: 1074.00,
+    data: [
+      {w:29,eval:15.13,avg:1047.97,cur:1133.99}
     ]
   },
   {
@@ -86,7 +92,7 @@ const STOCKS = [
       {w:10,eval:49.76,avg:26.56,cur:16.53},{w:11,eval:67.85,avg:23.33,cur:15.83},{w:12,eval:86.15,avg:21.37,cur:15.36},
       {w:13,eval:99.46,avg:20.03,cur:14.25},{w:14,eval:124.85,avg:19.36,cur:15.13},{w:15,eval:156.84,avg:18.90,cur:16.49},
       {w:16,eval:158.83,avg:18.74,cur:14.90},{w:17,eval:165.96,avg:18.51,cur:13.98},{w:18,eval:190.25,avg:18.13,cur:14.39},
-      {w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09},{w:21,eval:318.84,avg:17.90,cur:19.05},{w:22,eval:344.99,avg:17.95,cur:19.38},{w:23,eval:378.93,avg:18.07,cur:20.17},{w:24,eval:386.10,avg:18.18,cur:19.52},{w:25,eval:371.61,avg:18.19,cur:17.81},{w:26,eval:367.33,avg:18.17,cur:16.71},{w:27,eval:260.08,avg:17.97,cur:11.14},{w:28,eval:287.41,avg:17.97,cur:12.31}
+      {w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09},{w:21,eval:318.84,avg:17.90,cur:19.05},{w:22,eval:344.99,avg:17.95,cur:19.38},{w:23,eval:378.93,avg:18.07,cur:20.17},{w:24,eval:386.10,avg:18.18,cur:19.52},{w:25,eval:371.61,avg:18.19,cur:17.81},{w:26,eval:367.33,avg:18.17,cur:16.71},{w:27,eval:260.08,avg:17.97,cur:11.14},{w:28,eval:287.41,avg:17.97,cur:12.31},{w:29,eval:279.24,avg:17.97,cur:11.96}
     ]
   },
   {
@@ -98,24 +104,24 @@ const STOCKS = [
       {w:10,eval:1008412,avg:29159,cur:32529},{w:11,eval:1069842,avg:29417,cur:32419},{w:12,eval:1150257,avg:29589,cur:32865},
       {w:13,eval:1240592,avg:29802,cur:33530},{w:14,eval:1319352,avg:30049,cur:33830},{w:15,eval:1391932,avg:30235,cur:33950},
       {w:16,eval:1298152,avg:30376,cur:30185},{w:17,eval:1364607,avg:30369,cur:30325},{w:18,eval:1490587,avg:30401,cur:31715},
-      {w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850},{w:21,eval:1646692,avg:30539,cur:31070},{w:22,eval:1668682,avg:30539,cur:30340},{w:23,eval:1775532,avg:30527,cur:31150},{w:24,eval:1799187,avg:30543,cur:30495},{w:25,eval:1849807,avg:30526,cur:30325},{w:26,eval:1890297,avg:30513,cur:30005},{w:27,eval:1960707,avg:30495,cur:30165},{w:28,eval:1861842,avg:30480,cur:28210}
+      {w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850},{w:21,eval:1646692,avg:30539,cur:31070},{w:22,eval:1668682,avg:30539,cur:30340},{w:23,eval:1775532,avg:30527,cur:31150},{w:24,eval:1799187,avg:30543,cur:30495},{w:25,eval:1849807,avg:30526,cur:30325},{w:26,eval:1890297,avg:30513,cur:30005},{w:27,eval:1960707,avg:30495,cur:30165},{w:28,eval:1861842,avg:30480,cur:28210},{w:29,eval:1883352,avg:30455,cur:28110}
     ]
   }
 ];
 
-const MAX_WEEK = 28;
+const MAX_WEEK = 29;
 const WEEKS = Array.from({length: MAX_WEEK}, (_, i) => i + 1);
 
 const WEEK_FX = {
   1:1400, 2:1400, 3:1400, 4:1400, 5:1400, 6:1400, 7:1400, 8:1400, 9:1400,
   10:1400, 11:1400, 12:1400, 13:1400, 14:1400, 15:1400, 16:1400, 17:1400, 18:1400,
-  19:1450, 20:1476, 21:1484, 22:1479, 23:1467, 24:1501, 25:1520, 26:1510, 27:1560, 28:1521
+  19:1450, 20:1476, 21:1484, 22:1479, 23:1467, 24:1501, 25:1520, 26:1510, 27:1560, 28:1521, 29:1530
 };
 
 // 코스피/코스닥 지수 데이터
 const INDEX_DATA = {
-  KOSPI: [{w:27,cur:8160.59},{w:28,cur:8123.62}],
-  KOSDAQ: [{w:27,cur:1002.44},{w:28,cur:1029.05}],
+  KOSPI: [{w:27,cur:8160.59},{w:28,cur:8123.62},{w:29,cur:9052.42}],
+  KOSDAQ: [{w:27,cur:1002.44},{w:28,cur:1029.05},{w:29,cur:966.59}],
 };
 
 const WEEK_DATES = {
@@ -123,7 +129,7 @@ const WEEK_DATES = {
   5:"1/04",  6:"1/11",  7:"1/17",  8:"1/25",
   9:"2/01",  10:"2/08", 11:"2/15", 12:"2/21",
   13:"3/01", 14:"3/08", 15:"3/16", 16:"3/22",
-  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18", 21:"4/26", 22:"5/03", 23:"5/09", 24:"5/16", 25:"5/23", 26:"5/30", 27:"6/06", 28:"6/13"
+  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18", 21:"4/26", 22:"5/03", 23:"5/09", 24:"5/16", 25:"5/23", 26:"5/30", 27:"6/06", 28:"6/13", 29:"6/20"
 };
 
 // 주차별 포트폴리오 총 평가금액 (원화)
@@ -131,7 +137,7 @@ const PORTFOLIO_KRW = [
   0, 994249, 1177637, 1422551, 1693990, 1911206,
   2145004, 2485734, 2921820, 3249563, 3313617,
   3523785, 3835877, 4060950, 4266144, 4556522,
-  4581646, 4743190, 5235202, 5967135, 6694364, 7308111, 7630152, 8499491, 8774317, 9223807, 9634053, 9487725, 9763976
+  4581646, 4743190, 5235202, 5967135, 6694364, 7308111, 7630152, 8499491, 8774317, 9223807, 9634053, 9487725, 9763976, 10278343
 ];
 
 // 주차별 투입 원가 누적 (평단가 × 보유수량, 원화 환산)
@@ -139,7 +145,7 @@ const SAVINGS_KRW = [
   0, 987103, 1185693, 1410162, 1631862, 1862824,
   2099917, 2365269, 2703895, 2968464, 3233415,
   3486460, 3747318, 4010296, 4275509, 4539248,
-  4801787, 5058240, 5371197, 5718468, 6062436, 6357127, 6609537, 6836000, 7224341, 7564621, 7799124, 8176899, 8277138
+  4801787, 5058240, 5371197, 5718468, 6062436, 6357127, 6609537, 6836000, 7224341, 7564621, 7799124, 8176899, 8277138, 8514310
 ];
 
 const MODE_INFO = {
@@ -154,6 +160,7 @@ export default function StockChart() {
   const [mode, setMode] = useState("cumReturn");
   const [enabled, setEnabled] = useState(Object.fromEntries(STOCKS.map(s => [s.ticker, true])));
   const toggle = t => setEnabled(p => ({...p, [t]: !p[t]}));
+  const [savingsHover, setSavingsHover] = useState(null); // { week, x, portVal, saveVal, pct }
 
   const chartData = useMemo(() => {
     if (mode === "savings") return [];
@@ -345,8 +352,30 @@ export default function StockChart() {
             </div>
           </div>
 
-          <div style={{ overflowX: "auto" }}>
-            <svg width={cW} height={cH} style={{ background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e" }}>
+          <div style={{ overflowX: "auto", position: "relative" }}>
+            <svg width={cW} height={cH} style={{ background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e" }}
+              onMouseMove={e => {
+                const rect = e.currentTarget.getBoundingClientRect();
+                const mx = e.clientX - rect.left;
+                const weeks = savingsChart.portPoints.map(p => p.week);
+                let closest = weeks[0], minDist = Infinity;
+                for (const w of weeks) {
+                  const dist = Math.abs(xS(w) - mx);
+                  if (dist < minDist) { minDist = dist; closest = w; }
+                }
+                if (minDist < 30) {
+                  const port = savingsChart.portPoints.find(p => p.week === closest);
+                  const save = savingsChart.savePoints.find(p => p.week === closest);
+                  if (port && save) {
+                    const pct = ((port.value - save.value) / save.value) * 100;
+                    setSavingsHover({ week: closest, x: xS(closest), portVal: port.value, saveVal: save.value, pct });
+                  }
+                } else {
+                  setSavingsHover(null);
+                }
+              }}
+              onMouseLeave={() => setSavingsHover(null)}
+            >
               {/* 그리드 */}
               {savingsChart.grids.map(v => (
                 <g key={v}>
@@ -389,7 +418,43 @@ export default function StockChart() {
                   </>
                 );
               })()}
+              {/* 호버 수직선 + 점 */}
+              {savingsHover && (() => {
+                const port = savingsChart.portPoints.find(p => p.week === savingsHover.week);
+                const save = savingsChart.savePoints.find(p => p.week === savingsHover.week);
+                return (
+                  <g>
+                    <line x1={savingsHover.x} y1={pT} x2={savingsHover.x} y2={cH - pB}
+                      stroke="#ffffff" strokeWidth="1" strokeDasharray="4,3" opacity="0.25"/>
+                    {port && <circle cx={savingsHover.x} cy={savingsChart.yS2(port.value)} r="4" fill="#3B82F6" stroke="#0e0e1c" strokeWidth="1.5"/>}
+                    {save && <circle cx={savingsHover.x} cy={savingsChart.yS2(save.value)} r="4" fill="#6B7280" stroke="#0e0e1c" strokeWidth="1.5"/>}
+                  </g>
+                );
+              })()}
             </svg>
+            {/* 툴팁 */}
+            {savingsHover && (() => {
+              const isPositive = savingsHover.pct >= 0;
+              const clampedLeft = Math.min(savingsHover.x + 14, cW - 190);
+              return (
+                <div style={{
+                  position: "absolute", top: "20px", left: `${clampedLeft}px`,
+                  background: "#12122a", border: `1px solid ${isPositive ? "#10B981" : "#DC5050"}`,
+                  borderRadius: "8px", padding: "10px 14px", pointerEvents: "none",
+                  fontSize: "12px", lineHeight: "1.8", minWidth: "170px",
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.5)"
+                }}>
+                  <div style={{ color: "#9aaabb", fontWeight: 700, marginBottom: "4px" }}>
+                    {savingsHover.week}주차 · {WEEK_DATES[savingsHover.week]}
+                  </div>
+                  <div style={{ color: "#3B82F6" }}>포트 {fmtKRW(savingsHover.portVal)}</div>
+                  <div style={{ color: "#6B7280" }}>원가 {fmtKRW(savingsHover.saveVal)}</div>
+                  <div style={{ color: isPositive ? "#10B981" : "#DC5050", fontWeight: 800, fontSize: "15px", marginTop: "4px" }}>
+                    {isPositive ? "+" : ""}{savingsHover.pct.toFixed(2)}%
+                  </div>
+                </div>
+              );
+            })()}
           </div>
         </div>
       )}
