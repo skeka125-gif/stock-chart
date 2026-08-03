@@ -10,7 +10,7 @@ const STOCKS = [
       {w:10,eval:360.00,avg:185.79,cur:185.22},{w:11,eval:373.96,avg:186.12,cur:182.64},{w:12,eval:408.83,avg:186.05,cur:189.82},
       {w:13,eval:399.92,avg:186.38,cur:177.19},{w:14,eval:421.01,avg:186.11,cur:177.82},{w:15,eval:446.66,avg:185.89,cur:180.25},
       {w:16,eval:446.40,avg:185.77,cur:172.58},{w:17,eval:452.18,avg:185.45,cur:167.52},{w:18,eval:499.49,avg:184.88,cur:177.39},
-      {w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68},{w:21,eval:652.05,avg:185.42,cur:208.27},{w:22,eval:640.16,avg:186.15,cur:198.45},{w:23,eval:715.62,avg:186.59,cur:215.20},{w:24,eval:769.67,avg:187.49,cur:225.32},{w:25,eval:754.79,avg:188.41,cur:215.33},{w:26,eval:759.85,avg:189.06,cur:211.14},{w:27,eval:756.88,avg:189.79,cur:205.10},{w:28,eval:778.11,avg:190.23,cur:205.19},{w:29,eval:813.06,avg:190.55,cur:210.69},{w:30,eval:769.36,avg:191.02,cur:192.53},{w:31,eval:792.51,avg:191.09,cur:194.83},{w:32,eval:887.85,avg:191.34,cur:210.96},{w:33,eval:874.16,avg:191.69,cur:202.81},{w:34,eval:912.48,avg:192.05,cur:206.84}
+      {w:19,eval:552.06,avg:184.69,cur:188.63},{w:20,eval:611.27,avg:184.94,cur:201.68},{w:21,eval:652.05,avg:185.42,cur:208.27},{w:22,eval:640.16,avg:186.15,cur:198.45},{w:23,eval:715.62,avg:186.59,cur:215.20},{w:24,eval:769.67,avg:187.49,cur:225.32},{w:25,eval:754.79,avg:188.41,cur:215.33},{w:26,eval:759.85,avg:189.06,cur:211.14},{w:27,eval:756.88,avg:189.79,cur:205.10},{w:28,eval:778.11,avg:190.23,cur:205.19},{w:29,eval:813.06,avg:190.55,cur:210.69},{w:30,eval:769.36,avg:191.02,cur:192.53},{w:31,eval:792.51,avg:191.09,cur:194.83},{w:32,eval:887.85,avg:191.34,cur:210.96},{w:33,eval:874.16,avg:191.69,cur:202.81},{w:34,eval:912.48,avg:192.05,cur:206.84},{w:35,eval:897.76,avg:192.13,cur:200.75}
     ]
   },
   {
@@ -22,7 +22,7 @@ const STOCKS = [
       {w:10,eval:234.59,avg:221.88,cur:208.23},{w:11,eval:252.58,avg:221.44,cur:207.12},{w:12,eval:263.92,avg:219.70,cur:200.15},
       {w:13,eval:283.59,avg:218.62,cur:200.21},{w:14,eval:292.42,avg:216.93,cur:192.43},{w:15,eval:313.26,avg:215.84,cur:193.39},
       {w:16,eval:343.15,avg:214.72,cur:199.35},{w:17,eval:366.75,avg:214.57,cur:201.99},{w:18,eval:415.92,avg:214.18,cur:217.50},
-      {w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39},{w:21,eval:748.05,avg:218.30,cur:347.81},{w:22,eval:797.51,avg:221.29,cur:360.54},{w:23,eval:1031.07,avg:224.91,cur:455.19},{w:24,eval:979.54,avg:229.23,cur:424.10},{w:25,eval:1101.42,avg:233.21,cur:467.51},{w:26,eval:1236.77,avg:237.61,cur:516.10},{w:27,eval:1135.59,avg:242.06,cur:466.38},{w:28,eval:1267.53,avg:246.34,cur:511.57},{w:29,eval:1345.58,avg:249.34,cur:537.37},{w:30,eval:1333.31,avg:255.18,cur:521.58},{w:31,eval:1337.31,avg:258.00,cur:517.82},{w:32,eval:1469.11,avg:263.65,cur:557.89},{w:33,eval:1325.42,avg:267.53,cur:495.76},{w:34,eval:1416.17,avg:271.35,cur:521.95}
+      {w:19,eval:490.14,avg:214.74,cur:245.04},{w:20,eval:579.24,avg:216.05,cur:278.39},{w:21,eval:748.05,avg:218.30,cur:347.81},{w:22,eval:797.51,avg:221.29,cur:360.54},{w:23,eval:1031.07,avg:224.91,cur:455.19},{w:24,eval:979.54,avg:229.23,cur:424.10},{w:25,eval:1101.42,avg:233.21,cur:467.51},{w:26,eval:1236.77,avg:237.61,cur:516.10},{w:27,eval:1135.59,avg:242.06,cur:466.38},{w:28,eval:1267.53,avg:246.34,cur:511.57},{w:29,eval:1345.58,avg:249.34,cur:537.37},{w:30,eval:1333.31,avg:255.18,cur:521.58},{w:31,eval:1337.31,avg:258.00,cur:517.82},{w:32,eval:1469.11,avg:263.65,cur:557.89},{w:33,eval:1325.42,avg:267.53,cur:495.76},{w:34,eval:1416.17,avg:271.35,cur:521.95},{w:35,eval:1303.88,avg:273.23,cur:476.15}
     ]
   },
   {
@@ -34,7 +34,7 @@ const STOCKS = [
       {w:11,eval:190.70,avg:320.38,cur:305.44},{w:12,eval:217.35,avg:318.50,cur:314.98},{w:13,eval:234.97,avg:318.11,cur:311.76},
       {w:14,eval:244.62,avg:316.97,cur:298.52},{w:15,eval:267.72,avg:315.82,cur:302.28},{w:16,eval:283.96,avg:315.27,cur:298.73},
       {w:17,eval:279.17,avg:314.14,cur:274.34},{w:18,eval:321.77,avg:312.20,cur:295.77},
-      {w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68},{w:21,eval:438.70,avg:313.70,cur:344.40},{w:22,eval:513.45,avg:315.16,cur:385.69},{w:23,eval:554.20,avg:317.88,cur:400.80},{w:24,eval:568.80,avg:320.56,cur:396.78},{w:25,eval:568.33,avg:323.12,cur:382.97},{w:26,eval:584.01,avg:325.29,cur:380.34},{w:27,eval:585.82,avg:326.78,cur:368.53},{w:28,eval:592.58,avg:328.03,cur:359.68},{w:29,eval:620.33,avg:328.93,cur:368.03},{w:30,eval:595.78,avg:329.81,cur:337.39},{w:31,eval:649.82,avg:330.31,cur:359.91},{w:32,eval:672.76,avg:331.48,cur:357.18},{w:33,eval:673.67,avg:332.18,cur:346.77},{w:34,eval:640.80,avg:332.47,cur:319.74}
+      {w:19,eval:365.75,avg:311.93,cur:317.24},{w:20,eval:415.01,avg:312.53,cur:341.68},{w:21,eval:438.70,avg:313.70,cur:344.40},{w:22,eval:513.45,avg:315.16,cur:385.69},{w:23,eval:554.20,avg:317.88,cur:400.80},{w:24,eval:568.80,avg:320.56,cur:396.78},{w:25,eval:568.33,avg:323.12,cur:382.97},{w:26,eval:584.01,avg:325.29,cur:380.34},{w:27,eval:585.82,avg:326.78,cur:368.53},{w:28,eval:592.58,avg:328.03,cur:359.68},{w:29,eval:620.33,avg:328.93,cur:368.03},{w:30,eval:595.78,avg:329.81,cur:337.39},{w:31,eval:649.82,avg:330.31,cur:359.91},{w:32,eval:672.76,avg:331.48,cur:357.18},{w:33,eval:673.67,avg:332.18,cur:346.77},{w:34,eval:640.80,avg:332.47,cur:319.74},{w:35,eval:726.49,avg:332.51,cur:356.13}
     ]
   },
   {
@@ -46,7 +46,7 @@ const STOCKS = [
       {w:10,eval:386.72,avg:677.84,cur:689.93},{w:11,eval:401.39,avg:678.42,cur:680.99},{w:12,eval:426.09,avg:678.79,cur:689.43},
       {w:13,eval:443.85,avg:679.26,cur:685.99},{w:14,eval:454.76,avg:679.35,cur:672.38},{w:15,eval:467.67,avg:678.98,cur:662.29},
       {w:16,eval:475.73,avg:678.60,cur:646.40},{w:17,eval:485.91,avg:677.81,cur:634.09},{w:18,eval:522.87,avg:676.55,cur:655.83},
-      {w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14},{w:21,eval:631.53,avg:677.53,cur:713.94},{w:22,eval:657.70,avg:678.58,cur:720.65},{w:23,eval:693.52,avg:679.94,cur:737.62},{w:24,eval:714.99,avg:681.56,cur:739.17},{w:25,eval:741.44,avg:683.09,cur:745.64},{w:26,eval:772.35,avg:684.86,cur:756.48},{w:27,eval:772.50,avg:686.66,cur:737.55},{w:28,eval:797.96,avg:688.04,cur:741.75},{w:29,eval:817.22,avg:689.12,cur:746.74},{w:30,eval:825.30,avg:690.87,cur:728.99},{w:31,eval:857.23,avg:691.69,cur:744.78},{w:32,eval:897.16,avg:693.47,cur:754.95},{w:33,eval:904.06,avg:694.79,cur:743.29},{w:34,eval:919.58,avg:695.91,cur:738.93}
+      {w:19,eval:562.08,avg:676.18,cur:679.46},{w:20,eval:608.16,avg:676.50,cur:710.14},{w:21,eval:631.53,avg:677.53,cur:713.94},{w:22,eval:657.70,avg:678.58,cur:720.65},{w:23,eval:693.52,avg:679.94,cur:737.62},{w:24,eval:714.99,avg:681.56,cur:739.17},{w:25,eval:741.44,avg:683.09,cur:745.64},{w:26,eval:772.35,avg:684.86,cur:756.48},{w:27,eval:772.50,avg:686.66,cur:737.55},{w:28,eval:797.96,avg:688.04,cur:741.75},{w:29,eval:817.22,avg:689.12,cur:746.74},{w:30,eval:825.30,avg:690.87,cur:728.99},{w:31,eval:857.23,avg:691.69,cur:744.78},{w:32,eval:897.16,avg:693.47,cur:754.95},{w:33,eval:904.06,avg:694.79,cur:743.29},{w:34,eval:919.58,avg:695.91,cur:738.93},{w:35,eval:941.75,avg:696.48,cur:747.03}
     ]
   },
   {
@@ -58,7 +58,7 @@ const STOCKS = [
       {w:11,eval:184.58,avg:618.72,cur:601.24},{w:12,eval:206.93,avg:617.22,cur:608.81},{w:13,eval:226.33,avg:616.50,cur:607.29},
       {w:14,eval:243.36,avg:615.47,cur:599.75},{w:15,eval:260.63,avg:614.41,cur:593.72},{w:16,eval:273.28,avg:613.53,cur:578.75},
       {w:17,eval:284.67,avg:611.99,cur:562.58},{w:18,eval:316.41,avg:609.47,cur:584.98},
-      {w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85},{w:21,eval:423.19,avg:611.17,cur:663.88},{w:22,eval:450.14,avg:613.39,cur:674.15},{w:23,eval:495.73,avg:616.29,cur:711.23},{w:24,eval:514.10,avg:619.89,cur:708.93},{w:25,eval:540.63,avg:623.14,cur:717.54},{w:26,eval:576.52,avg:626.86,cur:738.31},{w:27,eval:569.59,avg:630.64,cur:705.06},{w:28,eval:604.01,avg:633.49,cur:721.34},{w:29,eval:634.22,avg:635.77,cur:740.62},{w:30,eval:632.18,avg:639.71,cur:706.52},{w:31,eval:651.43,avg:641.44,cur:712.60},{w:32,eval:691.45,avg:644.62,cur:725.51},{w:33,eval:683.26,avg:646.55,cur:695.33},{w:34,eval:692.92,avg:648.08,cur:684.23}
+      {w:19,eval:350.95,avg:608.77,cur:611.07},{w:20,eval:393.61,avg:609.29,cur:648.85},{w:21,eval:423.19,avg:611.17,cur:663.88},{w:22,eval:450.14,avg:613.39,cur:674.15},{w:23,eval:495.73,avg:616.29,cur:711.23},{w:24,eval:514.10,avg:619.89,cur:708.93},{w:25,eval:540.63,avg:623.14,cur:717.54},{w:26,eval:576.52,avg:626.86,cur:738.31},{w:27,eval:569.59,avg:630.64,cur:705.06},{w:28,eval:604.01,avg:633.49,cur:721.34},{w:29,eval:634.22,avg:635.77,cur:740.62},{w:30,eval:632.18,avg:639.71,cur:706.52},{w:31,eval:651.43,avg:641.44,cur:712.60},{w:32,eval:691.45,avg:644.62,cur:725.51},{w:33,eval:683.26,avg:646.55,cur:695.33},{w:34,eval:692.92,avg:648.08,cur:684.23},{w:35,eval:708.84,avg:648.64,cur:687.99}
     ]
   },
   {
@@ -70,19 +70,19 @@ const STOCKS = [
       {w:11,eval:206.35,avg:326.21,cur:354.30},{w:12,eval:229.44,avg:328.65,cur:359.43},{w:13,eval:244.24,avg:331.41,cur:352.29},
       {w:14,eval:243.17,avg:332.26,cur:323.51},{w:15,eval:269.10,avg:332.09,cur:331.32},{w:16,eval:287.32,avg:332.67,cur:330.00},
       {w:17,eval:300.55,avg:333.30,cur:323.48},{w:18,eval:336.22,avg:332.98,cur:339.61},
-      {w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71},{w:21,eval:528.35,avg:340.38,cur:461.60},{w:22,eval:553.84,avg:344.43,cur:465.75},{w:23,eval:640.48,avg:348.95,cur:520.30},{w:24,eval:645.42,avg:354.19,cur:508.52},{w:25,eval:703.13,avg:358.80,cur:537.33},{w:26,eval:764.86,avg:364.20,cur:569.08},{w:27,eval:743.78,avg:369.73,cur:539.77},{w:28,eval:843.32,avg:375.04,cur:596.25},{w:29,eval:919.03,avg:378.81,cur:639.45},{w:30,eval:874.19,avg:386.29,cur:589.94},{w:31,eval:852.44,avg:389.57,cur:566.32},{w:32,eval:903.00,avg:395.52,cur:581.34},{w:33,eval:830.51,avg:399.18,cur:521.81},{w:34,eval:859.32,avg:402.51,cur:527.01}
+      {w:19,eval:404.42,avg:334.23,cur:386.60},{w:20,eval:456.07,avg:336.91,cur:415.71},{w:21,eval:528.35,avg:340.38,cur:461.60},{w:22,eval:553.84,avg:344.43,cur:465.75},{w:23,eval:640.48,avg:348.95,cur:520.30},{w:24,eval:645.42,avg:354.19,cur:508.52},{w:25,eval:703.13,avg:358.80,cur:537.33},{w:26,eval:764.86,avg:364.20,cur:569.08},{w:27,eval:743.78,avg:369.73,cur:539.77},{w:28,eval:843.32,avg:375.04,cur:596.25},{w:29,eval:919.03,avg:378.81,cur:639.45},{w:30,eval:874.19,avg:386.29,cur:589.94},{w:31,eval:852.44,avg:389.57,cur:566.32},{w:32,eval:903.00,avg:395.52,cur:581.34},{w:33,eval:830.51,avg:399.18,cur:521.81},{w:34,eval:859.32,avg:402.51,cur:527.01},{w:35,eval:835.37,avg:403.92,cur:504.89}
     ]
   },
   {
     name: "DRAM", ticker: "DRAM", color: "#A78BFA", startWeek: 28, firstPrice: 59.73,
     data: [
-      {w:28,eval:22.02,avg:61.92,cur:65.01},{w:29,eval:41.32,avg:64.91,cur:76.71},{w:30,eval:65.14,avg:69.44,cur:71.88},{w:31,eval:67.51,avg:69.08,cur:60.63},{w:32,eval:97.94,avg:67.51,cur:63.04},{w:33,eval:101.57,avg:65.33,cur:52.72},{w:34,eval:122.70,avg:63.67,cur:53.20}
+      {w:28,eval:22.02,avg:61.92,cur:65.01},{w:29,eval:41.32,avg:64.91,cur:76.71},{w:30,eval:65.14,avg:69.44,cur:71.88},{w:31,eval:67.51,avg:69.08,cur:60.63},{w:32,eval:97.94,avg:67.51,cur:63.04},{w:33,eval:101.57,avg:65.33,cur:52.72},{w:34,eval:122.70,avg:63.67,cur:53.20},{w:35,eval:128.28,avg:62.37,cur:50.37}
     ]
   },
   {
     name: "마이크론", ticker: "MU", color: "#06B6D4", startWeek: 29, firstPrice: 1074.00,
     data: [
-      {w:29,eval:15.13,avg:1047.97,cur:1133.99},{w:30,eval:42.64,avg:1114.19,cur:1132.33},{w:31,eval:49.55,avg:1101.47,cur:975.56},{w:32,eval:77.58,avg:1059.26,cur:979.30},{w:33,eval:86.82,avg:1025.69,cur:848.95},{w:34,eval:115.01,avg:1007.85,cur:920.95}
+      {w:29,eval:15.13,avg:1047.97,cur:1133.99},{w:30,eval:42.64,avg:1114.19,cur:1132.33},{w:31,eval:49.55,avg:1101.47,cur:975.56},{w:32,eval:77.58,avg:1059.26,cur:979.30},{w:33,eval:86.82,avg:1025.69,cur:848.95},{w:34,eval:115.01,avg:1007.85,cur:920.95},{w:35,eval:114.40,avg:991.75,cur:823.03}
     ]
   },
   {
@@ -92,7 +92,7 @@ const STOCKS = [
       {w:10,eval:49.76,avg:26.56,cur:16.53},{w:11,eval:67.85,avg:23.33,cur:15.83},{w:12,eval:86.15,avg:21.37,cur:15.36},
       {w:13,eval:99.46,avg:20.03,cur:14.25},{w:14,eval:124.85,avg:19.36,cur:15.13},{w:15,eval:156.84,avg:18.90,cur:16.49},
       {w:16,eval:158.83,avg:18.74,cur:14.90},{w:17,eval:165.96,avg:18.51,cur:13.98},{w:18,eval:190.25,avg:18.13,cur:14.39},
-      {w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09},{w:21,eval:318.84,avg:17.90,cur:19.05},{w:22,eval:344.99,avg:17.95,cur:19.38},{w:23,eval:378.93,avg:18.07,cur:20.17},{w:24,eval:386.10,avg:18.18,cur:19.52},{w:25,eval:371.61,avg:18.19,cur:17.81},{w:26,eval:367.33,avg:18.17,cur:16.71},{w:27,eval:260.08,avg:17.97,cur:11.14},{w:28,eval:287.41,avg:17.97,cur:12.31},{w:29,eval:279.24,avg:17.97,cur:11.96},{w:30,eval:250.28,avg:17.97,cur:10.72},{w:31,eval:264.06,avg:17.97,cur:11.31},{w:32,eval:284.60,avg:17.97,cur:12.19},{w:33,eval:285.54,avg:17.97,cur:12.23},{w:34,eval:284.37,avg:17.97,cur:12.18}
+      {w:19,eval:248.00,avg:17.94,cur:17.13},{w:20,eval:299.21,avg:17.84,cur:19.09},{w:21,eval:318.84,avg:17.90,cur:19.05},{w:22,eval:344.99,avg:17.95,cur:19.38},{w:23,eval:378.93,avg:18.07,cur:20.17},{w:24,eval:386.10,avg:18.18,cur:19.52},{w:25,eval:371.61,avg:18.19,cur:17.81},{w:26,eval:367.33,avg:18.17,cur:16.71},{w:27,eval:260.08,avg:17.97,cur:11.14},{w:28,eval:287.41,avg:17.97,cur:12.31},{w:29,eval:279.24,avg:17.97,cur:11.96},{w:30,eval:250.28,avg:17.97,cur:10.72},{w:31,eval:264.06,avg:17.97,cur:11.31},{w:32,eval:284.60,avg:17.97,cur:12.19},{w:33,eval:285.54,avg:17.97,cur:12.23},{w:34,eval:284.37,avg:17.97,cur:12.18},{w:35,eval:272.23,avg:17.97,cur:11.66}
     ]
   },
   {
@@ -104,24 +104,25 @@ const STOCKS = [
       {w:10,eval:1008412,avg:29159,cur:32529},{w:11,eval:1069842,avg:29417,cur:32419},{w:12,eval:1150257,avg:29589,cur:32865},
       {w:13,eval:1240592,avg:29802,cur:33530},{w:14,eval:1319352,avg:30049,cur:33830},{w:15,eval:1391932,avg:30235,cur:33950},
       {w:16,eval:1298152,avg:30376,cur:30185},{w:17,eval:1364607,avg:30369,cur:30325},{w:18,eval:1490587,avg:30401,cur:31715},
-      {w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850},{w:21,eval:1646692,avg:30539,cur:31070},{w:22,eval:1668682,avg:30539,cur:30340},{w:23,eval:1775532,avg:30527,cur:31150},{w:24,eval:1799187,avg:30543,cur:30495},{w:25,eval:1849807,avg:30526,cur:30325},{w:26,eval:1890297,avg:30513,cur:30005},{w:27,eval:1960707,avg:30495,cur:30165},{w:28,eval:1861842,avg:30480,cur:28210},{w:29,eval:1883352,avg:30455,cur:28110},{w:30,eval:1844142,avg:30423,cur:27120},{w:31,eval:1961703,avg:30380,cur:28435},{w:32,eval:1938342,avg:30355,cur:27695},{w:33,eval:1877651,avg:30313,cur:26450},{w:34,eval:1895098,avg:30259,cur:26325}
+      {w:19,eval:1553527,avg:30454,cur:31705},{w:20,eval:1624332,avg:30501,cur:31850},{w:21,eval:1646692,avg:30539,cur:31070},{w:22,eval:1668682,avg:30539,cur:30340},{w:23,eval:1775532,avg:30527,cur:31150},{w:24,eval:1799187,avg:30543,cur:30495},{w:25,eval:1849807,avg:30526,cur:30325},{w:26,eval:1890297,avg:30513,cur:30005},{w:27,eval:1960707,avg:30495,cur:30165},{w:28,eval:1861842,avg:30480,cur:28210},{w:29,eval:1883352,avg:30455,cur:28110},{w:30,eval:1844142,avg:30423,cur:27120},{w:31,eval:1961703,avg:30380,cur:28435},{w:32,eval:1938342,avg:30355,cur:27695},{w:33,eval:1877651,avg:30313,cur:26450},{w:34,eval:1895098,avg:30259,cur:26325},{w:35,eval:1903537,avg:30212,cur:26080}
     ]
   }
 ];
 
-const MAX_WEEK = 34;
+const VERSION = "v35.3";
+const MAX_WEEK = 35;
 const WEEKS = Array.from({length: MAX_WEEK}, (_, i) => i + 1);
 
 const WEEK_FX = {
   1:1400, 2:1400, 3:1400, 4:1400, 5:1400, 6:1400, 7:1400, 8:1400, 9:1400,
   10:1400, 11:1400, 12:1400, 13:1400, 14:1400, 15:1400, 16:1400, 17:1400, 18:1400,
-  19:1450, 20:1476, 21:1484, 22:1479, 23:1467, 24:1501, 25:1520, 26:1510, 27:1560, 28:1521, 29:1530, 30:1539, 31:1532, 32:1505, 33:1493, 34:1466
+  19:1450, 20:1476, 21:1484, 22:1479, 23:1467, 24:1501, 25:1520, 26:1510, 27:1560, 28:1521, 29:1530, 30:1539, 31:1532, 32:1505, 33:1493, 34:1466, 35:1448
 };
 
 // 코스피/코스닥 지수 데이터
 const INDEX_DATA = {
-  KOSPI: [{w:27,cur:8160.59},{w:28,cur:8123.62},{w:29,cur:9052.42},{w:30,cur:8411.21},{w:31,cur:8088.34},{w:32,cur:7475.94},{w:33,cur:6820.60},{w:34,cur:6690.62}],
-  KOSDAQ: [{w:27,cur:1002.44},{w:28,cur:1029.05},{w:29,cur:966.59},{w:30,cur:851.37},{w:31,cur:868.41},{w:32,cur:837.43},{w:33,cur:791.84},{w:34,cur:748.22}],
+  KOSPI: [{w:27,cur:8160.59},{w:28,cur:8123.62},{w:29,cur:9052.42},{w:30,cur:8411.21},{w:31,cur:8088.34},{w:32,cur:7475.94},{w:33,cur:6820.60},{w:34,cur:6690.62},{w:35,cur:6595.45}],
+  KOSDAQ: [{w:27,cur:1002.44},{w:28,cur:1029.05},{w:29,cur:966.59},{w:30,cur:851.37},{w:31,cur:868.41},{w:32,cur:837.43},{w:33,cur:791.84},{w:34,cur:748.22},{w:35,cur:719.76}],
 };
 
 const WEEK_DATES = {
@@ -129,7 +130,7 @@ const WEEK_DATES = {
   5:"1/04",  6:"1/11",  7:"1/17",  8:"1/25",
   9:"2/01",  10:"2/08", 11:"2/15", 12:"2/21",
   13:"3/01", 14:"3/08", 15:"3/16", 16:"3/22",
-  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18", 21:"4/26", 22:"5/03", 23:"5/09", 24:"5/16", 25:"5/23", 26:"5/30", 27:"6/06", 28:"6/13", 29:"6/20", 30:"6/27", 31:"7/04", 32:"7/11", 33:"7/18", 34:"7/25"
+  17:"3/29", 18:"4/05", 19:"4/11", 20:"4/18", 21:"4/26", 22:"5/03", 23:"5/09", 24:"5/16", 25:"5/23", 26:"5/30", 27:"6/06", 28:"6/13", 29:"6/20", 30:"6/27", 31:"7/04", 32:"7/11", 33:"7/18", 34:"7/25", 35:"8/01"
 };
 
 // 주차별 포트폴리오 총 평가금액 (원화)
@@ -137,7 +138,7 @@ const PORTFOLIO_KRW = [
   0, 994249, 1177637, 1422551, 1693990, 1911206,
   2145004, 2485734, 2921820, 3249563, 3313617,
   3523785, 3835877, 4060950, 4266144, 4556522,
-  4581646, 4743190, 5235202, 5967135, 6694364, 7308111, 7630152, 8499491, 8774317, 9223807, 9634053, 9487725, 9763976, 10278343, 10136012, 10421745, 10942817, 10485387, 10639754
+  4581646, 4743190, 5235202, 5967135, 6694364, 7308111, 7630152, 8499491, 8774317, 9223807, 9634053, 9487725, 9763976, 10278343, 10136012, 10421745, 10942817, 10485387, 10639754, 10486357
 ];
 
 // 주차별 투입 원가 누적 (평단가 × 보유수량, 원화 환산)
@@ -145,15 +146,16 @@ const SAVINGS_KRW = [
   0, 987103, 1185693, 1410162, 1631862, 1862824,
   2099917, 2365269, 2703895, 2968464, 3233415,
   3486460, 3747318, 4010296, 4275509, 4539248,
-  4801787, 5058240, 5371197, 5718468, 6062436, 6357127, 6609537, 6836000, 7224341, 7564621, 7799124, 8176899, 8277138, 8514310, 8922857, 9091574, 9335510, 9554725, 9695212
+  4801787, 5058240, 5371197, 5718468, 6062436, 6357127, 6609537, 6836000, 7224341, 7564621, 7799124, 8176899, 8277138, 8514310, 8922857, 9091574, 9335510, 9554725, 9695212, 9764587
 ];
 
 const MODE_INFO = {
-  cumReturn:  { label: "누적 등락률",      desc: "첫 매수가 기준 종목 자체 등락률 (%) — 코스피/코스닥 지수 포함" },
-  evalUSD:    { label: "평가금액 ($)",      desc: "보유 평가금액 (국내주식 주차별 환율 환산)" },
-  gapRate:    { label: "괴리율",            desc: "현재가 vs 평단가 차이 (%) — 마이너스 구간이 추매 기회였던 시점" },
-  weeklyReturn: { label: "주간 등락률",   desc: "매주 각 종목의 주간 등락률 (%) — 어떤 주에 어떤 종목이 크게 움직였는지" },
-  savings:      { label: "원가 비교",      desc: "전체 포트폴리오 평가금액 vs 투입 원가 (평단가 × 보유수량) 비교 (원화)" },
+  cumReturn:    { label: "누적 등락률", short: "누적",   desc: "첫 매수가 기준 종목 자체 등락률 (%) — 코스피/코스닥 지수 포함" },
+  evalUSD:      { label: "평가금액 ($)",  short: "평가액",  desc: "보유 평가금액 (국내주식 주차별 환율 환산)" },
+  gapRate:      { label: "괴리율",        short: "괴리율",  desc: "현재가 vs 평단가 차이 (%) — 마이너스 구간이 추매 기회였던 시점" },
+  weeklyReturn: { label: "주간 등락률",   short: "주간",    desc: "매주 각 종목의 주간 등락률 (%) — 어떤 주에 어떤 종목이 크게 움직였는지" },
+  savings:      { label: "원가 비교",     short: "원가",    desc: "전체 포트폴리오 평가금액 vs 투입 원가 (평단가 × 보유수량) 비교 (원화)" },
+  donut:        { label: "포트 비중",     short: "비중",    desc: "현재 보유 평가금액 기준 종목별 비중 (도넛 차트)" },
 };
 
 export default function StockChart() {
@@ -161,9 +163,11 @@ export default function StockChart() {
   const [enabled, setEnabled] = useState(Object.fromEntries(STOCKS.map(s => [s.ticker, true])));
   const toggle = t => setEnabled(p => ({...p, [t]: !p[t]}));
   const [savingsHover, setSavingsHover] = useState(null); // { week, x, portVal, saveVal, pct }
+  const [isMobile, setIsMobile] = useState(false);
+  const chartW = isMobile ? Math.min(480, typeof window !== "undefined" ? window.innerWidth - 24 : 480) : 960;
 
   const chartData = useMemo(() => {
-    if (mode === "savings") return [];
+    if (mode === "savings" || mode === "donut") return [];
     return STOCKS.filter(s => enabled[s.ticker]).map(stock => {
       const firstAvg = stock.data[0].avg;
       const points = stock.data.map(d => {
@@ -212,17 +216,23 @@ export default function StockChart() {
   const pad = (rawMax - rawMin) * 0.08 || 5;
   const yMin = rawMin - pad, yMax = rawMax + pad;
 
-  const cW = 960, cH = 480, pL = 72, pR = 165, pT = 20, pB = 44;
+  const cW = chartW, cH = isMobile ? 300 : 480;
+  const pL = isMobile ? 48 : 72, pR = isMobile ? 90 : 165, pT = 20, pB = isMobile ? 36 : 44;
   const plotW = cW - pL - pR, plotH = cH - pT - pB;
   const xS = w => pL + ((w - 1) / (MAX_WEEK - 1)) * plotW;
   const yS = v => pT + plotH - ((v - yMin) / (yMax - yMin)) * plotH;
 
   const gridLines = useMemo(() => {
-    if (mode === "savings") return [];
+    if (mode === "savings" || mode === "donut") return [];
     const range = yMax - yMin;
     let step;
-    if (mode === "cumReturn" || mode === "gapRate" || mode === "weeklyReturn") step = range > 80 ? 10 : range > 40 ? 5 : 2;
-    else step = range > 500 ? 100 : range > 200 ? 50 : 25;
+    if (mode === "cumReturn" || mode === "gapRate" || mode === "weeklyReturn") {
+      if (isMobile) step = range > 80 ? 20 : range > 40 ? 10 : 5;
+      else step = range > 80 ? 10 : range > 40 ? 5 : 2;
+    } else {
+      if (isMobile) step = range > 500 ? 200 : range > 200 ? 100 : 50;
+      else step = range > 500 ? 100 : range > 200 ? 50 : 25;
+    }
     const lines = [];
     for (let v = Math.ceil(yMin / step) * step; v <= yMax; v += step) lines.push(+(v.toFixed(4)));
     return lines;
@@ -240,7 +250,7 @@ export default function StockChart() {
   const showZeroLine = mode === "cumReturn" || mode === "gapRate" || mode === "weeklyReturn";
 
   const endLabels = useMemo(() => {
-    if (mode === "savings") return [];
+    if (mode === "savings" || mode === "donut") return [];
     const labels = allChartData
       .filter(s => s.points.length > 0)
       .map(s => {
@@ -266,7 +276,9 @@ export default function StockChart() {
     const yMn = mn - pd2, yMx = mx + pd2;
     const yS2 = v => pT + plotH - ((v - yMn) / (yMx - yMn)) * plotH;
     const range = yMx - yMn;
-    const step = range > 500 ? 100 : range > 200 ? 50 : 25;
+    const step = isMobile
+      ? (range > 500 ? 200 : range > 200 ? 100 : 50)
+      : (range > 500 ? 100 : range > 200 ? 50 : 25);
     const grids = [];
     for (let v = Math.ceil(yMn / step) * step; v <= yMx; v += step) grids.push(v);
     const portLast = portPoints[portPoints.length - 1];
@@ -286,48 +298,123 @@ export default function StockChart() {
       fontFamily: "'Pretendard','Noto Sans KR',sans-serif", padding: "20px 16px" }}>
       <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" rel="stylesheet"/>
 
-      <h1 style={{ fontSize: "26px", fontWeight: 800, textAlign: "center",
+      {/* PC/모바일 전환 버튼 */}
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: "8px" }}>
+        <button onClick={() => setIsMobile(v => !v)} style={{
+          padding: "5px 14px", borderRadius: "16px", border: "1px solid #2a2a4a",
+          background: "#16162a", color: "#9aaabb", cursor: "pointer",
+          fontSize: "12px", fontWeight: 700, display: "flex", alignItems: "center", gap: "6px"
+        }}>
+          {isMobile ? "🖥 PC 보기" : "📱 모바일 보기"}
+        </button>
+      </div>
+
+      <h1 style={{ fontSize: isMobile ? "20px" : "26px", fontWeight: 800, textAlign: "center",
         background: "linear-gradient(135deg,#3B82F6,#00D4AA)",
         WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent",
-        marginBottom: "4px", letterSpacing: "-0.5px" }}>주식 모으기 추적 차트</h1>
+        marginBottom: "4px", letterSpacing: "-0.5px" }}>{isMobile ? "주식 모으기" : "주식 모으기 추적 차트"}</h1>
       <p style={{ textAlign: "center", color: "#c0c8d8", fontSize: "13px", marginBottom: "16px" }}>
-        1주차 ~ {MAX_WEEK}주차 · 국내주식 주차별 환율 적용
+        1주차 ~ {MAX_WEEK}주차 · 국내주식 주차별 환율 적용 · {VERSION}
       </p>
 
       {/* 모드 버튼 */}
       <div style={{ display: "flex", justifyContent: "center", gap: "6px", marginBottom: "8px", flexWrap: "wrap" }}>
         {Object.entries(MODE_INFO).map(([m, info]) => (
           <button key={m} onClick={() => setMode(m)} style={{
-            padding: "7px 16px", borderRadius: "20px", border: "none", cursor: "pointer",
-            fontSize: "13px", fontWeight: 700, transition: "all 0.2s",
-            background: mode === m ? (m === "savings" ? "#10B981" : "#3B82F6") : "#16162a",
+            padding: isMobile ? "5px 10px" : "7px 16px", borderRadius: "20px", border: "none", cursor: "pointer",
+            fontSize: isMobile ? "11px" : "13px", fontWeight: 700, transition: "all 0.2s",
+            background: mode === m ? (m === "savings" || m === "donut" ? "#10B981" : "#3B82F6") : "#16162a",
             color: mode === m ? "#fff" : "#6b7280",
-            boxShadow: mode === m ? `0 0 16px ${m === "savings" ? "rgba(16,185,129,0.3)" : "rgba(59,130,246,0.3)"}` : "none"
-          }}>{info.label}</button>
+            boxShadow: mode === m ? `0 0 16px ${m === "savings" || m === "donut" ? "rgba(16,185,129,0.3)" : "rgba(59,130,246,0.3)"}` : "none"
+          }}>{isMobile ? info.short : info.label}</button>
         ))}
       </div>
 
       {/* 모드 설명 */}
-      <p style={{ textAlign: "center", color: "#b0bccf", fontSize: "12px", marginBottom: "14px", minHeight: "16px" }}>
-        {MODE_INFO[mode].desc}
-      </p>
+      {!isMobile && (
+        <p style={{ textAlign: "center", color: "#b0bccf", fontSize: "12px", marginBottom: "14px", minHeight: "16px" }}>
+          {MODE_INFO[mode].desc}
+        </p>
+      )}
 
       {/* 종목 토글 (savings 모드 제외) */}
-      {mode !== "savings" && (
+      {mode !== "savings" && mode !== "donut" && (
         <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "5px", marginBottom: "18px" }}>
           {STOCKS.map(s => (
             <button key={s.ticker} onClick={() => toggle(s.ticker)} style={{
-              padding: "4px 12px", borderRadius: "14px",
+              padding: isMobile ? "3px 8px" : "4px 12px", borderRadius: "14px",
               border: `1.5px solid ${enabled[s.ticker] ? s.color : '#333'}`,
-              cursor: "pointer", fontSize: "12px", fontWeight: 700, transition: "all 0.15s",
+              cursor: "pointer", fontSize: isMobile ? "10px" : "12px", fontWeight: 700, transition: "all 0.15s",
               background: enabled[s.ticker] ? s.color + "18" : "transparent",
               color: enabled[s.ticker] ? s.color : "#444"
-            }}>{s.name}</button>
+            }}>{isMobile ? s.ticker : s.name}</button>
           ))}
         </div>
       )}
 
       {/* 적립 비교 차트 */}
+      {mode === "donut" && (() => {
+        // 최신 주차 평가금액 기준 비중 계산
+        const latestData = STOCKS.map(stock => {
+          const last = stock.data[stock.data.length - 1];
+          const evalKRW = stock.isKR ? last.eval : last.eval * (WEEK_FX[last.w] || 1400);
+          return { name: stock.name, ticker: stock.ticker, color: stock.color, evalKRW, eval: last.eval, isKR: stock.isKR, w: last.w };
+        });
+        const total = latestData.reduce((s, d) => s + d.evalKRW, 0);
+        const items = latestData.map(d => ({ ...d, pct: d.evalKRW / total * 100 }))
+          .sort((a, b) => b.pct - a.pct);
+
+        // SVG 도넛
+        const cx = isMobile ? 150 : 200, cy = isMobile ? 150 : 200, R = isMobile ? 120 : 160, r = isMobile ? 68 : 90;
+        let angle = -Math.PI / 2;
+        const slices = items.map(item => {
+          const sweep = (item.pct / 100) * 2 * Math.PI;
+          const x1 = cx + R * Math.cos(angle), y1 = cy + R * Math.sin(angle);
+          const x2 = cx + R * Math.cos(angle + sweep), y2 = cy + R * Math.sin(angle + sweep);
+          const ix1 = cx + r * Math.cos(angle), iy1 = cy + r * Math.sin(angle);
+          const ix2 = cx + r * Math.cos(angle + sweep), iy2 = cy + r * Math.sin(angle + sweep);
+          const large = sweep > Math.PI ? 1 : 0;
+          const path = `M ${x1} ${y1} A ${R} ${R} 0 ${large} 1 ${x2} ${y2} L ${ix2} ${iy2} A ${r} ${r} 0 ${large} 0 ${ix1} ${iy1} Z`;
+          const mid = angle + sweep / 2;
+          angle += sweep;
+          return { ...item, path, mid };
+        });
+
+        const totalKRW = (total / 10000).toFixed(0);
+        const fmtM = v => v >= 10000 ? `${(v/10000).toFixed(1)}억` : `${v}만`;
+
+        return (
+          <div style={{ display: "flex", gap: "24px", alignItems: "flex-start", flexWrap: "wrap", flexDirection: isMobile ? "column" : "row" }}>
+            <div style={{ position: "relative" }}>
+              <svg width={isMobile ? 300 : 400} height={isMobile ? 300 : 400} style={{ background: "#0e0e1c", borderRadius: "12px" }}>
+                {slices.map((s, i) => (
+                  <path key={i} d={s.path} fill={s.color} stroke="#0e0e1c" strokeWidth="2" opacity="0.92"/>
+                ))}
+                <text x={cx} y={cy - 10} textAnchor="middle" fill="#e8eaf6" fontSize="13" fontFamily="'Pretendard',sans-serif" fontWeight="700">포트폴리오 총액</text>
+                <text x={cx} y={cy + 14} textAnchor="middle" fill="#e8eaf6" fontSize="17" fontFamily="monospace" fontWeight="800">{fmtM(Number(totalKRW))}</text>
+                <text x={cx} y={cy + 36} textAnchor="middle" fill="#6b7585" fontSize="11" fontFamily="monospace">{MAX_WEEK}주차 기준</text>
+              </svg>
+            </div>
+            <div style={{ flex: 1, minWidth: "280px" }}>
+              <div style={{ fontSize: "13px", color: "#9aaabb", marginBottom: "12px", fontWeight: 700 }}>종목별 비중 (평가금액 기준)</div>
+              {items.map((item, i) => (
+                <div key={i} style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "10px" }}>
+                  <div style={{ width: "12px", height: "12px", borderRadius: "3px", background: item.color, flexShrink: 0 }}/>
+                  <div style={{ flex: 1, fontSize: "13px", color: "#c8d0e0", fontFamily: "'Pretendard',sans-serif" }}>{item.name}</div>
+                  <div style={{ fontSize: "13px", color: "#9aaabb", fontFamily: "monospace", width: "48px", textAlign: "right" }}>{item.pct.toFixed(1)}%</div>
+                  <div style={{ width: "140px", height: "6px", background: "#1a1a30", borderRadius: "3px" }}>
+                    <div style={{ width: `${item.pct}%`, height: "100%", background: item.color, borderRadius: "3px", opacity: 0.85 }}/>
+                  </div>
+                  <div style={{ fontSize: "12px", color: "#6b7585", fontFamily: "monospace", width: "80px", textAlign: "right" }}>
+                    {item.isKR ? `${(item.eval/10000).toFixed(0)}만원` : `$${item.eval.toFixed(0)}`}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
+
       {mode === "savings" && savingsChart && (
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "12px" }}>
           {/* 요약 카드 */}
@@ -380,14 +467,14 @@ export default function StockChart() {
               {savingsChart.grids.map(v => (
                 <g key={v}>
                   <line x1={pL} y1={savingsChart.yS2(v)} x2={cW - pR} y2={savingsChart.yS2(v)} stroke="#151525" strokeWidth="0.5"/>
-                  <text x={pL - 8} y={savingsChart.yS2(v) + 4} textAnchor="end" fill="#9aaabb" fontSize="10" fontFamily="monospace">
+                  <text x={pL - 6} y={savingsChart.yS2(v) + 4} textAnchor="end" fill="#9aaabb" fontSize={isMobile ? "8" : "10"} fontFamily="monospace">
                     {v >= 10000 ? `${(v/10000).toFixed(0)}억` : `${v}만`}
                   </text>
                 </g>
               ))}
               {/* x축 날짜 */}
-              {WEEKS.map(w => (
-                <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
+              {WEEKS.filter(w => !isMobile || w === 1 || w % 5 === 0 || w === MAX_WEEK).map(w => (
+                <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize={isMobile ? "8" : "9"} fontFamily="monospace">
                   {WEEK_DATES[w]}
                 </text>
               ))}
@@ -411,10 +498,10 @@ export default function StockChart() {
                 const sl = savingsChart.savePoints[savingsChart.savePoints.length - 1];
                 return (
                   <>
-                    <text x={xS(pl.week) + 12} y={savingsChart.yS2(pl.value) + 4} fill="#3B82F6" fontSize="12" fontWeight="700"
-                      fontFamily="'Pretendard',sans-serif">포트폴리오 {fmtKRW(pl.value)}</text>
-                    <text x={xS(sl.week) + 12} y={savingsChart.yS2(sl.value) + 4} fill="#9CA3AF" fontSize="12" fontWeight="700"
-                      fontFamily="'Pretendard',sans-serif">투입 원가 {fmtKRW(sl.value)}</text>
+                    <text x={xS(pl.week) + 12} y={savingsChart.yS2(pl.value) + 4} fill="#3B82F6" fontSize={isMobile ? "10" : "12"} fontWeight="700"
+                      fontFamily="'Pretendard',sans-serif">{isMobile ? `포트 ${fmtKRW(pl.value)}` : `포트폴리오 ${fmtKRW(pl.value)}`}</text>
+                    <text x={xS(sl.week) + 12} y={savingsChart.yS2(sl.value) + 4} fill="#9CA3AF" fontSize={isMobile ? "10" : "12"} fontWeight="700"
+                      fontFamily="'Pretendard',sans-serif">{isMobile ? `원가 ${fmtKRW(sl.value)}` : `투입 원가 ${fmtKRW(sl.value)}`}</text>
                   </>
                 );
               })()}
@@ -460,7 +547,7 @@ export default function StockChart() {
       )}
 
       {/* 기존 차트 */}
-      {mode !== "savings" && (
+      {mode !== "savings" && mode !== "donut" && (
         <div style={{ display: "flex", justifyContent: "center", overflowX: "auto" }}>
           <svg width={cW} height={cH} style={{ background: "#0e0e1c", borderRadius: "10px", border: "1px solid #1a1a2e" }}>
             {gridLines.map(v => (
@@ -468,7 +555,7 @@ export default function StockChart() {
                 <line x1={pL} y1={yS(v)} x2={cW - pR} y2={yS(v)}
                   stroke={showZeroLine && v === 0 ? "#3a3a5a" : "#151525"}
                   strokeWidth={showZeroLine && v === 0 ? 1.5 : 0.5}/>
-                <text x={pL - 8} y={yS(v) + 4} textAnchor="end" fill="#9aaabb" fontSize="10" fontFamily="monospace">
+                <text x={pL - 6} y={yS(v) + 4} textAnchor="end" fill="#9aaabb" fontSize={isMobile ? "8" : "10"} fontFamily="monospace">
                   {fmtGrid(v)}
                 </text>
               </g>
@@ -476,8 +563,8 @@ export default function StockChart() {
             {mode === "gapRate" && yMin < 0 && yMax > 0 && (
               <rect x={pL} y={yS(0)} width={plotW} height={yS(yMin) - yS(0)} fill="#1a0a0a" opacity="0.4"/>
             )}
-            {WEEKS.map(w => (
-              <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize="9" fontFamily="monospace">
+            {WEEKS.filter(w => !isMobile || w === 1 || w % 5 === 0 || w === MAX_WEEK).map(w => (
+              <text key={w} x={xS(w)} y={cH - 12} textAnchor="middle" fill="#9aaabb" fontSize={isMobile ? "8" : "9"} fontFamily="monospace">
                 {WEEK_DATES[w]}
               </text>
             ))}
@@ -488,7 +575,7 @@ export default function StockChart() {
               return <path key={stock.ticker} d={d} fill="none" stroke={stock.color}
                 strokeWidth="1.8" strokeLinejoin="round" strokeLinecap="round" opacity="0.9"/>;
             })}
-            {endLabels.map(l => (
+            {!isMobile && endLabels.map(l => (
               <g key={l.ticker}>
                 {Math.abs(l.y - l.rawY) > 4 && (
                   <line x1={l.x + 2} y1={l.rawY} x2={l.x + 10} y2={l.y} stroke={l.color} strokeWidth="0.5" opacity="0.5"/>
